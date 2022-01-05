@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="28px" viewBox="0 0 23 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>back copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 2.5e-05 20.97065 2.5e-05 20.97065 19.101025 0 19.101025"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Elements" transform="translate(-40.000000, -174.000000)">
+            <g id="back" transform="translate(41.000000, 175.000000)">
+                <g>
+                    <rect id="Rectangle-Copy-6" stroke="#FFFFFF" stroke-width="0.1" opacity="0.01" x="0" y="0" width="21" height="26"></rect>
+                    <g id="Group-3" transform="translate(0.000000, 3.300000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M20.2439,8.918275 L2.57715,8.918275 C2.5759,8.918275 2.5749,8.918775 2.57365,8.918775 L9.7754,1.227525 C10.04165,0.943025 10.03915,0.483275 9.76915,0.202775 C9.6419,0.070275 9.4759,-0.010225 9.30565,0.001025 C9.1329,0.002025 8.96965,0.075275 8.84665,0.206525 L-0.0001,9.646525 L8.6674,18.895525 C8.7914,19.027775 8.9559,19.100525 9.1299,19.101025 L9.13065,19.101025 C9.3044,19.101025 9.46865,19.028275 9.59315,18.896025 C9.87215,18.599275 9.87165,18.141275 9.60615,17.860025 L2.53665,10.368025 C2.5504,10.368775 2.5634,10.372025 2.57715,10.372025 L20.2439,10.372025 C20.64515,10.372025 20.97065,10.046775 20.97065,9.645025 C20.97065,9.243775 20.64515,8.918275 20.2439,8.918275" id="Fill-1" fill="#000000" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

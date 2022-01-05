@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="24px" viewBox="0 0 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Dam Bao icon</title>
+    <g id="Phase-2---Section-Tin-dang-tu-Cua-hang-Dam-Bao" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.0-Filter-shop-dam-bao-Phase2" transform="translate(-16.000000, -473.000000)">
+            <g id="Dam-Bao-icon" transform="translate(16.000000, 473.000000)">
+                <rect id="Rectangle" x="0" y="0" width="20" height="24"></rect>
+                <path d="M10,0.639593066 L18.1402141,3.64521058 C18.5187329,3.78497138 18.8336794,4.03524026 19.0539962,4.35144311 C19.2743129,4.66764597 19.4,5.0497828 19.4,5.45327952 L19.4,5.45327952 L19.4,14.627968 C17.709403,17.9773906 14.5695327,20.8642416 10.0098324,23.3138476 C5.31282149,20.5966766 2.16354314,17.7116461 0.6,14.6276883 L0.6,14.6276883 L0.6,5.45327952 C0.6,5.0497828 0.725687055,4.66764597 0.946003821,4.35144311 C1.16632059,4.03524026 1.48126707,3.78497138 1.85978591,3.64521058 L1.85978591,3.64521058 L10,0.639593066 Z" id="Path-2" stroke="#222222" stroke-width="1.2"></path>
+                <polygon id="Fill-4" fill="#222222" points="8.84638923 16 5 12.0641628 6.28212974 10.7527387 8.71787026 13.2456964 13.5908813 8 15 9.3114241"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
