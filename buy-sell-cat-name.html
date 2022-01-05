@@ -621,7 +621,7 @@
                                 Giá +
                             </button>
                          </li>
-                         <li class="filter-bt03 hv-opacity-cm">
+                        <li class="filter-bt03 hv-opacity-cm" data-toggle="modal" data-target="#modalProject">
                             <button type="button">
                                 Dự án +
                             </button>
@@ -981,7 +981,7 @@
                 </div>
             </div>
 
-            <section class="section-block section-block-bg-ct bg-white mt-3 pt-2">
+            <section class="section-block section-block-bg-ct bg-white mt-3 pt-3">
                 <h3 class="section-title text-center">
                     MUA BÁN BẤT ĐỘNG SẢN Toàn quốc THÁNG 12/2021
                 </h3>
@@ -1169,110 +1169,96 @@
             </div>
             <div class="modal-body ">
                 <div class="modal-total__body">
-                    <div class="block ">
+                    <div class="block open-new-popup" data-toggle="modal" data-target="#modalCatPrev" data-dismiss="modal">
                         <h4>Danh mục</h4>
                         <p>Tất cả bất động sản </p>
                         <img src="./assets/image/right-default.svg" alt="">
                     </div>
-                    <div class="block ">
+                    <div class="block open-new-popup" data-toggle="modal" data-target="#modalVideoPrev" data-dismiss="modal">
                         <h4>Tin có video</h4>
                         <p>Chưa lọc</p>
                         <img src="./assets/image/right-default.svg" alt="">
                     </div>
                     <div class="block ">
                         <h4>Giá</h4>
-                        
                     </div>
-                    <div class="block mb-4">
+                    <div class="block mb-4" data-toggle="modal" data-target="#modalProjectPrev" data-dismiss="modal">
                         <h4>Dự án</h4>
                         <p>152 Điện Biên Phủ</p>
                         <img src="./assets/image/right-default.svg" alt="">
                     </div>
                     <h3>Sắp xếp theo</h3>
-                    <div class="block__ct border-radius-top border-bottom-0">
-                        <p>
-                            <img src="./assets/image/order-by-time.svg" alt="">
-                            <span>Tin mới trước</span>
-                        </p>
-                        <label for="" for="radio03">
-                            <input type="text" id="radio03">
-                        </label>
-                    </div>
-                    <div class="block__ct border-radius-bt">
-                        <p>
-                            <img src="./assets/image/order-by-time.svg" alt="">
-                            <span>Tin mới trước</span>
-                        </p>
-                        <label for="" for="radio04">
-                            <input type="text" id="radio04">
-                        </label>
-                    </div>
-                    <h3>Bạn muốn</h3>
-                    <div class="block__ct border-radius-top border-bottom-0">
-                        <p>
-                            <img src="./assets/image/want-to-buy.svg" alt="">
-                            <span>Mua</span>
-                        </p>
-                        <label for="" for="radio05">
-                            <input type="text" id="radio05">
-                        </label>
-                    </div>
-                    <div class="block__ct border-radius-bt">
-                        <p>
-                            <img src="./assets/image/want-to-sell.svg" alt="">
-                            <span>Bán</span>
-                        </p>
-                        <label for="" for="radio06">
-                            <input type="text" id="radio06">
-                        </label>
-                    </div>
-                    <h3>Đăng bởi</h3>
-                    <div class="block__ct border-radius-top border-bottom-0">
-                        <p>
-                            <img src="./assets/image/dam-bao-icon.svg" alt="">
-                            <span>Đối tác Vinway</span>
-                        </p>
-                        <label for="" for="radio07">
-                            <input type="text" id="radio07">
-                        </label>
-                    </div>
-                    <div class="block__ct  border-bottom-0">
-                        <p>
-                            <img src="./assets/image/individual-seller.svg" alt="">
-                            <span>Cá nhân</span>
-                        </p>
-                        <label for="" for="radio08">
-                            <input type="text" id="radio08">
-                        </label>
-                    </div>
-                    <div class="block__ct border-radius-bt">
-                        <p>
-                            <img src="./assets/image/pro-seller.svg" alt="">
-                            <span>Môi giới</span>
-                        </p>
-                        <label for="" for="radio09">
-                            <input type="text" id="radio09">
-                        </label>
-                    </div>
-                    <h3>Hiển thị dạng</h3>
-                    <div class="block__ct border-radius-top border-bottom-0">
-                        <p>
-                            <img src="./assets/image/list.svg" alt="">
-                            <span>Hình và Chữ</span>
-                        </p>
-                        <label for="" for="radio10">
-                            <input type="text" id="radio10">
-                        </label>
-                    </div>
-                    <div class="block__ct border-radius-bt">
-                        <p>
-                            <img src="./assets/image/grid.svg" alt="">
-                            <span>Lưới</span>
-                        </p>
-                        <label for="" for="radio11">
-                            <input type="text" id="radio11">
-                        </label>
-                    </div>
+                    <form action="" class="modal-form ">
+                        <div class="form-check mb-0 border-radius-top border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label d-flex align-items-center" for="exampleRadios1">
+                                <img src="./assets/image/order-by-time.svg" alt="">
+                                Tin mới trước
+                                </label>
+                                </div>
+                        <div class="form-check mb-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label d-flex align-items-center" for="exampleRadios2">
+                                <img src="./assets/image/order-by-price.svg" alt="">
+                                Giá thấp trước
+                            </label>
+                        </div>
+                        <h3>Bạn muốn</h3>
+                        <div class="form-check mb-0 border-radius-top border-bottom-0">
+                            <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios3" value="option3">
+                            <label class="form-check-label d-flex align-items-center" for="exampleRadios3">
+                                <img src="./assets/image/want-to-buy.svg" alt="">
+                                Mua
+                                </label>
+                                </div>
+                        <div class="form-check mb-0">
+                            <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios4" value="option4">
+                            <label class="form-check-label d-flex align-items-center" for="exampleRadios4">
+                                <img src="./assets/image/want-to-sell.svg" alt="">
+                                Bán
+                                </label>
+                                </div>
+
+                        <h3>Đăng bởi</h3>
+                        <div class="form-check mb-0 border-radius-top border-bottom-0">
+                            <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios5" value="option5">
+                            <label class="form-check-label d-flex align-items-center" for="exampleRadios5">
+                                <img src="./assets/image/dam-bao-icon.svg" alt="">
+                                Đối tác Vinway
+                                </label>
+                                </div>
+                        <div class="form-check mb-0  border-bottom-0">
+                            <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios6" value="option6">
+                            <label class="form-check-label d-flex align-items-center" for="exampleRadios6">
+                                <img src="./assets/image/individual-seller.svg" alt="">
+                                Cá nhân
+                                </label>
+                                </div>
+                        <div class="form-check mb-0">
+                            <input class="form-check-input" type="checkbox" name="exampleRadios" id="exampleRadios007" value="option7">
+                            <label class="form-check-label d-flex align-items-center" for="exampleRadios007">
+                                <img src="./assets/image/pro-seller.svg" alt="">
+                                Môi giới
+                                </label>
+                                </div>
+                    </form>
+                    <form action="" class="modal-form pb-4">
+                        <h3>Hiển thị dạng</h3>
+                        <div class="form-check mb-0 border-radius-top border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios8" value="option8" checked>
+                            <label class="form-check-label d-flex align-items-center" for="exampleRadios8">
+                                <img src="./assets/image/list.svg" alt="">
+                                Hình và Chữ
+                                </label>
+                                </div>
+                        <div class="form-check mb-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios9" value="option9">
+                            <label class="form-check-label d-flex align-items-center" for="exampleRadios9">
+                                <img src="./assets/image/grid.svg" alt="">
+                                Lưới
+                                </label>
+                                </div>
+                    </form>
                 </div>
             </div>
             <div class="modal-footer hv-opacity-cm">
@@ -1391,20 +1377,20 @@
               </button>
             </div>
             <div class="modal-body">
-               <ul class="modal-body-select02">
-                   <li>
-                       <span>Mua bán</span>
-                       <label for="" for="radio01">
-                           <input type="text" id="radio01">
-                       </label>
-                   </li>
-                   <li>
-                        <span>Cho thuê</span>
-                        <label for="" for="radio02">
-                            <input type="text" id="radio02">
+                <form action="" class="modal-form">
+                    <div class="form-check mb-0 border-radius-top border-bottom-0">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios20" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios20">
+                            Mua bán
                         </label>
-                     </li>
-               </ul>
+                    </div>
+                    <div class="form-check mb-0 border-radius-bt">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios21" value="option2">
+                        <label class="form-check-label" for="exampleRadios21">
+                            Cho thuê
+                        </label>
+                    </div>
+                    </form>
             </div>
           </div>
         </div>
@@ -1460,7 +1446,7 @@
     </div>
     <!--end modal select03 -->
 
-     <!-- modal seclet04 -->
+    <!-- modal seclet04 -->
     <div class="modal fade modal-select04 modal-filter" id="modalSelect04" tabindex="-1" role="dialog" aria-labelledby="modalSelect" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -1471,33 +1457,33 @@
               </button>
             </div>
             <div class="modal-body">
-               <ul class="modal-body-select02">
-                   <li>
-                       <span>Tất cả</span>
-                       <label for="" for="radio01">
-                           <input type="text" id="radio01">
-                       </label>
-                   </li>
-                   <li class="border-bottom-0">
-                        <span>Có video</span>
-                        <label for="" for="radio02">
-                            <input type="text" id="radio02">
+                <form action="" class="modal-form">
+                    <div class="form-check mb-0 border-radius-top border-bottom-0">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="Radios1" value="option1" checked>
+                        <label class="form-check-label" for="Radios1">
+                            Tất cả
                         </label>
-                    </li>
-                    <li>
-                        <span>Không có video</span>
-                        <label for="" for="radio02">
-                                <input type="text" id="radio02">
+                    </div>
+                    <div class="form-check mb-0 border-bottom-0">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="Radios2" value="option2">
+                        <label class="form-check-label" for="Radios2">
+                            Có video
                         </label>
-                    </li>
-               </ul>
+                    </div>
+                    <div class="form-check  mb-0 border-radius-bt">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="Radios3" value="option3">
+                        <label class="form-check-label" for="Radios3">
+                            Không có video
+                        </label>
+                    </div>
+                    </form>
             </div>
           </div>
         </div>
     </div>
     <!--end modal seclet04 -->
 
-     <!-- modal price -->
+    <!-- modal price -->
     <div class="modal fade modal-price modal-filter" id="modalSelect05" tabindex="-1" role="dialog" aria-labelledby="modalSelect" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -1515,12 +1501,231 @@
                         </div>
                         <button type="submit" class="button__save">ÁP DỤNG</button>
                     </form>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+    </div>
+    <!--end modal price -->
+    
+    <!-- modal modalCatPrev -->
+    <div class="modal fade modal-select03 modal-filter" id="modalCatPrev" tabindex="-1" role="dialog"
+        aria-labelledby="modalSelect" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="back" data-toggle="modal" data-target="#modalTotalFilter"
+                        data-dismiss="modal">
+                        <img src="./assets/image/back.svg" alt="">
+                    </button>
+                    <h5 class="modal-title" id="exampleModalLabel">Chọn danh mục</h5>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="modal-form">
+                        <div class="form-check mb-0 border-radius-top border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios11"
+                                value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios11">
+                                Tất cả bất động sản
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios12"
+                                value="option2">
+                            <label class="form-check-label" for="exampleRadios12">
+                                Căn hộ/Chung cư
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios13"
+                                value="option3">
+                            <label class="form-check-label" for="exampleRadios13">
+                                Nhà ở
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios14"
+                                value="option4">
+                            <label class="form-check-label" for="exampleRadios14">
+                                Đất
+                            </label>
+                        </div>
+                        <div class="form-check  mb-0 border-radius-bt">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios15"
+                                value="option5">
+                            <label class="form-check-label" for="exampleRadios15">
+                                Văn phòng, Mặt bằng kinh doanh
+                            </label>
+                        </div>
+                    </form>
                 </div>
             </div>
-          </div>
         </div>
     </div>
-    <!--end modal seclet04 -->
+    <!--end modal modalCatPrev -->
+    
+    <!-- modal modalVideoPrev -->
+    <div class="modal fade modal-select03 modal-filter" id="modalVideoPrev" tabindex="-1" role="dialog"
+        aria-labelledby="modalSelect" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tin có video</h5>
+                    <button type="button" class="back" data-toggle="modal" data-target="#modalTotalFilter"
+                        data-dismiss="modal">
+                        <img src="./assets/image/back.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="modal-form">
+                        <div class="form-check mb-0 border-radius-top border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="allVideo" value="option1"
+                                checked>
+                            <label class="form-check-label" for="allVideo">
+                                Tất cả
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="haveVideo"
+                                value="option2">
+                            <label class="form-check-label" for="haveVideo">
+                                Có video
+                            </label>
+                        </div>
+                        <div class="form-check  mb-0 border-radius-bt">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="notVideo" value="option3">
+                            <label class="form-check-label" for="notVideo">
+                                Không có video
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end modal modalVideoPrev -->
+    
+    
+    <!-- modal modalProject -->
+    <div class="modal fade modal-select04 modal-filter" id="modalProject" tabindex="-1" role="dialog"
+        aria-labelledby="modalSelect" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Dự án</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="modal-form">
+                        <div class="form-check mb-0 border-radius-top border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="Radios01" value="option1"
+                                checked>
+                            <label class="form-check-label" for="Radios01">
+                                Tất cả
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="Radios02" value="option2">
+                            <label class="form-check-label" for="Radios02">
+                                152 Điện Biên Phủ
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="Radios03" value="option2">
+                            <label class="form-check-label" for="Radios03">
+                                Ascent Plaza Bình Thạnh
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="Radios04" value="option2">
+                            <label class="form-check-label" for="Radios04">
+                                BCons Tower
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="Radios05" value="option2">
+                            <label class="form-check-label" for="Radios05">
+                                Cantavil Hoàn Cầu
+                            </label>
+                        </div>
+                        <div class="form-check  mb-0 border-radius-bt">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="Radios06" value="option3">
+                            <label class="form-check-label" for="Radios06">
+                                Cao ốc văn phòng V_ikon
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end modal modalProject -->
+    
+    <!-- modal modalProjectPrev -->
+    <div class="modal fade modal-select04 modal-filter" id="modalProjectPrev" tabindex="-1" role="dialog"
+        aria-labelledby="modalSelect" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Dự án</h5>
+                    <button type="button" class="back" data-toggle="modal" data-target="#modalTotalFilter"
+                        data-dismiss="modal">
+                        <img src="./assets/image/back.svg" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="modal-form">
+                        <div class="form-check mb-0 border-radius-top border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="allproject"
+                                value="option1" checked>
+                            <label class="form-check-label" for="allproject">
+                                Tất cả
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="project01"
+                                value="option2">
+                            <label class="form-check-label" for="project01">
+                                152 Điện Biên Phủ
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="project02"
+                                value="option2">
+                            <label class="form-check-label" for="project02">
+                                Ascent Plaza Bình Thạnh
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="project03"
+                                value="option2">
+                            <label class="form-check-label" for="project03">
+                                BCons Tower
+                            </label>
+                        </div>
+                        <div class="form-check mb-0 border-bottom-0">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="project04"
+                                value="option2">
+                            <label class="form-check-label" for="project04">
+                                Cantavil Hoàn Cầu
+                            </label>
+                        </div>
+                        <div class="form-check  mb-0 border-radius-bt">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="project05"
+                                value="option3">
+                            <label class="form-check-label" for="project05">
+                                Cao ốc văn phòng V_iko
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end modal modalProjectPrev -->
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>

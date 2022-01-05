@@ -20,12 +20,7 @@
     padding-top: 5px;
 }
 
-h1.title-cat-page {
-    font-size: 16px;
-    font-weight: 700;
-    padding-left: 12px;
-    padding-bottom: 15px;
-}
+
 
 ul.cat__list {
     padding: 12px 0px;
@@ -864,11 +859,7 @@ button.button__save {
         padding-bottom: 8px;
         padding-left: 0px;
     }
-    h1.title-cat-page {
-        padding-left: 0px;
-        padding-bottom: 10px;
-        font-size: 14px;
-    }
+    
     ul.cat__list li {
         width: calc(100%/4);
         max-width: 130px;
