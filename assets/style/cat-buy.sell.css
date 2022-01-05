@@ -531,13 +531,11 @@ section.wrap-filter {
     background: #fff;
 }
 
-
 .form-check [type="radio"]:not(:checked) + label:after {
     opacity: 0;
     -webkit-transform: scale(0);
     transform: scale(0);
 }
-
 
 .form-check [type="radio"]:checked + label:after,.form-check [type="radio"]:not(:checked) + label:after{
     content: '';
