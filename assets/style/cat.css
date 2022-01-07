@@ -686,70 +686,6 @@
     color: #222222;
 }
 
-.aside__block {
-    padding: 6px 0px;
-}
-
-.aside-number-phone {
-    vertical-align: middle;
-    touch-action: manipulation;
-    cursor: pointer;
-    border: 1px solid transparent;
-    white-space: nowrap;
-    padding: 8px 10px;
-    border-radius: 4px;
-    font-size: 13px;
-    transition: background-color 200ms ease-in-out 0s;
-    color: rgb(255, 255, 255);
-    background-color: rgb(51, 168, 55);
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    margin-bottom: 10px;
-}
-
-.aside-number-phone .number__phone {
-    display: flex;
-    align-items: center;
-}
-
-.aside-number-phone .number__phone > img {
-    width: 24px;
-    margin-right: 10px;
-}
-
-.aside-number-phone > p {
-    font-weight: bold;
-}
-
-
-.aside-number-phone > p {
-    color: #fff;
-    overflow: hidden;
-}
-
-.aside-number-phone > p > span {
-    position: relative;
-    color: #fff;
-}
-
-.aside-number-phone > p.show span.cover {
-    transform: translateX(100%);
-}
-
-.aside-number-phone > p span.cover {
-    position: absolute;
-    width: 50%;
-    top: 0;
-    height: 100%;
-    left: 61%;
-    background-color: rgb(51, 168, 55);
-
-    transition:transform 0.3s ease-in;
-}
-
 .chat-with__seller {
     align-items: center;
     background-color: #fff;
@@ -1014,24 +950,9 @@ header .back-to-cat-page {
         position: static;
     }
 
-    .header-cat-detail .header__bt{
-        display: none !important;
-    }
-    .header-cat-detail .header__top .chat-sp {
-        display: none !important;
-    }
-    header .back-to-cat-page {
-        position: absolute;
-        left: 15px;
-        top: 50%;
-        transform: translateY(-50%);
-    }
-    header .back-to-cat-page > img {
-        width: 20px;
-    }
-    body.cat-detail-page .wrap-main {
-        margin-top: 52px;
-    }
+    
+    
+    
     .wrap-content {
         padding-left: 0px;
     }

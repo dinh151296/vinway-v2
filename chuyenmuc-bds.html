@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="header-cat-detail">
+    <header>
         <div class="container container-sp-nopd">
             <div class="header__top d-flex justify-content-between align-items-center">
                 <a href="index.html" class="header__logo">
@@ -665,7 +665,7 @@
 
     <div class="wrap-main">
         <section class="block ">
-            <div class="container bg-white">
+            <div class="container bg-white container-sp-nopd">
                 <div class="search-top d-flex align-items-center flex-wrap row m-0 ">
                     <div class="col-12 col-md-7 p-0">
                         <form action="">
@@ -681,7 +681,7 @@
                     </div>
                     <div class="col-8 col-md-3 p-0">
                         <div class="modal-region  bg-white ">
-                            <button type="button">
+                            <button type="button" data-toggle="modal" data-target="#modalSelect">
                                 <span>Toàn quốc</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 0.87)"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg>
                             </button>
@@ -699,14 +699,14 @@
                     </div>
                 </div>
 
-                <div class="breadcrumb__inner d-flex align-items-center mt-3 pl-0">
+                <div class="breadcrumb__inner d-flex align-items-center mt-3 pl-0 only-pc">
                     <a href="cat-home.html">Vinway nhà</a>
                     <span></span>
                     <p>Chuyên trang BĐS</p>
                 </div>
-                <h1 class="title-cat-page pl-0">Danh bạ Chuyên trang BĐS tại Toàn quốc</h1>
+                <h1 class="title-cat-page pl-0 only-pc">Danh bạ Chuyên trang BĐS tại Toàn quốc</h1>
 
-                <div class="row">
+                <div class="row row-hidd">
                     <ul class="filter ">
                         <li>
                             <a href="" class="active">
@@ -715,12 +715,12 @@
                         </li>
                         <li>
                             <a href="">
-                                hoạt động gần nhất
+                                nhiều dự án nhất
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                hoạt động gần nhất
+                                nhiều tin đăng nhất
                             </a>
                         </li>
                     </ul>
@@ -890,6 +890,8 @@
                 </div>
             </div>
         </section>
+
+
     </div>
 
     <footer>
@@ -988,6 +990,103 @@
             </div>
         </div>
     </footer>
+
+     <!-- modal select -->
+    <div class="modal fade modal-select01 modal-filter" id="modalSelect" tabindex="-1" role="dialog" aria-labelledby="modalSelect" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Chọn khu vực</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <ul class="list__select">
+                    <li>
+                        <a href="">
+                            <span>Toàn Quốc</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Tp Hồ Chí Minh</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Hà Nội</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Đà Nẵng</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Toàn Quốc</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Toàn Quốc</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Toàn Quốc</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Toàn Quốc</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Toàn Quốc</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Toàn Quốc</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Toàn Quốc</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Toàn Quốc</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Toàn Quốc</span>
+                            <img src="./assets/image/grey-next.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+    <!--end modal select -->
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
