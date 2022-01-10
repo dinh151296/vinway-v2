@@ -1,0 +1,671 @@
+/* ====style quản lý tin==== */
+
+.breadcrumb__inner > p {
+    font-weight: bold;
+}
+
+.breadcrumb__inner {
+    padding-bottom: 6px;
+}
+
+.page__title {
+    padding: 10px 8px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.page__title a.order {
+    font-weight: 400;
+    font-size: 14px;
+    color: #4a90e2!important;
+    white-space: nowrap;
+}
+
+.page__title a.order > img {
+    width: 14px;
+    height: 14px;
+    transform: rotate(180deg);
+}
+
+.user-info  {
+    padding: 15px 10px;
+}
+
+.user-info  img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.user-info .user__name > h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.user-info .user__name  a {
+    font-size: 14px;
+    color: #2d65a0;
+    font-weight: 500;
+}
+
+ul.menu__tab {
+    overflow-x: auto;
+    width: auto;
+    height: 43px;
+}
+
+ul.menu__tab li {
+    margin-bottom: -1px;
+}
+
+ul.menu__tab li a {
+    padding: 10px 15px;
+    position: relative;
+    display: block;
+    font-size: 13px;
+
+    white-space: nowrap;
+}
+
+ul.menu__tab li a:hover {
+    background-color: #eee;
+}
+
+ul.menu__tab li a.active {
+    background: transparent;
+    color: #000!important;
+    font-weight: 600!important;
+    border-bottom: 4px solid #f8c938!important;
+    opacity: 1!important;
+}
+
+.post__news {
+    position: relative;
+    align-items: flex-end;
+    padding: 10px 10px 0px;
+    border-radius: 1px;
+    justify-content: space-between;
+}
+
+.project__name .thumb {
+    position: relative;
+}
+
+.project__name .thumb .number {
+    display: block;
+    position: absolute;
+    right: 14px;
+    top: 5px;
+    width: 26px;
+    height: 20px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 700;
+    background: url(https://static.chotot.com/storage/react-common/camera.svg);
+    text-align: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 2;
+    background-position: center;
+    background-size: cover;
+}
+
+.project__name .thumb > img {
+    width: 102px;
+    height: 71px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.project__name .desc > h3 > a {
+    display: block;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 4px;
+}
+
+.project__name .desc > p.price {
+    font-size: 15px;
+    color: #d0011b;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.project__name .desc > span {
+    font-size: 13px;
+}
+
+#option {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#option > img {
+    width: 5px;
+}
+
+.sell-faster {
+    border: 1px solid #589f39;
+    color: #589f39;
+    background: rgba(117,189,79,.1);
+    height: 32px;
+    font-size: 15px;
+    width: 158px;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.sell-faster:hover {
+    opacity: 0.7;
+    color: #589f39;
+}
+
+.sell-faster img {
+    margin-right: 7px;
+    width: 20px;
+}
+
+.popup__button {
+    margin-top: 10px;
+    border-top: 1px solid #f4f4f4;
+}
+
+.popup__button .item {
+    width: 50%;
+}
+
+.popup__button .item:nth-child(1) {
+    border-right: 2px solid #f4f4f4;
+}
+
+.popup__button .item >  button {
+    height: 38px;
+    border: unset;
+    outline: unset;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    cursor: pointer;
+    color: #38699f;
+}
+
+.popup__button .item >  button  > img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.wrap__aside {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.aside-block {
+    padding: 10px;
+}
+
+.aside-block > img {
+    width: 55px;
+    height: 55px;
+    object-fit: cover;
+    margin-right: 6px;
+}
+
+.aside-block > p {
+    font-size: 12px;
+    color: #000;
+    font-weight: 600;
+}
+
+.aside-block > p  span {
+    display: block;
+    font-size: 18px;
+}
+
+.wrap__aside form {
+    margin-top: 10px;
+}
+
+.aside__form > h4 {
+    padding: 8px 20px 8px 0;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    background: #dfdfdf;
+}
+
+.aside__form .form-group {
+    padding: 5px 10px;
+    border-bottom: 1px solid #dfdfdf;
+    overflow: hidden;
+}
+
+.form-group> img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+form.aside__form .form-check .form-check-label {
+    font-size: 14px;
+    color: #666;
+    position: relative;
+    padding-left: 23px;
+}
+
+form.aside__form .form-check .form-check-input {
+    right: 10px;
+    left: -99999px;
+}
+
+form.aside__form .form-check [type="checkbox"]:checked + label:before,.form-check [type="checkbox"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+form.aside__form .form-check [type="checkbox"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}     
+
+form.aside__form .form-check [type="checkbox"]:checked + label:before, 
+form.aside__form .form-check [type="checkbox"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+
+form.aside__form .form-check [type="checkbox"]:checked + label:after, 
+form.aside__form .form-check [type="checkbox"]:not(:checked) + label:after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: var(--main-color);
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+form.aside__form .form-check [type="checkbox"]:checked + label {
+    font-weight: bold;
+    color: #000;
+}
+
+form.aside__form button[type="submit"] {
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #5a9e3f;
+    text-transform: uppercase;
+    font-size: 13px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    border: unset;
+    outline: unset;
+}
+
+
+.modalsell .modal-body {
+    padding: 12px 24px;
+}
+
+.modalsell .modal-header {
+    background: #ffcc01;
+    border-radius: 5px 5px 0 0;
+    position: relative;
+    max-height: 44px;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalsell .modal-header button.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0px;
+    opacity: .9;
+    padding: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 14px;
+}
+
+.modalsell .modal-header > h5 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.modalsell .modal-body form >p {
+    font-size: 14px;
+    margin-bottom: 12px;
+} 
+
+.modalsell .modal-body form > h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.modalsell .modal-body form .form-check {
+    margin-bottom: 10px;
+}
+
+.modalsell .modal-body form .form-check .form-check-label {
+    font-size: 14px;
+}
+
+.modalsell .modal-body form .form-check
+
+.modalsell .modal-body form .form-check [type="checkbox"]:checked + label {
+    font-weight: bold;
+    color: #000;
+}
+
+.sell-faster__submit button {
+    display: inline-block;
+    width: calc(50% - 25px);
+    height: 35px;
+    border-radius: 3px;
+    overflow: hidden;
+    outline: 0;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 14px;
+}
+
+.sell-faster__submit button:hover {
+    opacity: 0.7;
+}
+
+.sell-faster__submit button.cancel {
+    background: #fff;
+    border: 1px solid #fc9827;
+    color: #fc9827;
+    margin-right: 15px;
+}
+
+.sell-faster__submit button.submit {
+    background: #fc9827;
+    border: 1px solid #fc9827;
+    color: #fff;
+}
+
+.modalsell .modal-dialog {
+    max-width: 450px;
+    margin: 1.75rem auto;
+}
+
+.modal-list-post .modal-content {
+    border-radius: 2px;
+}
+
+.modal-list-post .modal-body {
+    background-color: #f4f4f4;
+}
+
+.modal-list-post .modal-dialog {
+    max-width: 360px;
+}
+
+.modal-list-post .modal-header {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #f4f4f4;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-list-post .modal-header  > button {
+    position: absolute;
+    height: 100%;
+    padding: 0px 10px;
+    top: 0;
+    border: unset;
+    outline: unset;
+    background-color: transparent;
+
+    display: flex; 
+    align-items: center;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.modal-list-post .modal-header  > button.close {
+    left: 0px;
+}
+
+.modal-list-post .modal-header  > button.reload {
+    right: 0px;
+}
+
+
+.modal-list-post .modal-header  > button img {
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+}
+
+.modal-list-post .modal-header  > h5 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.list-post-body .post__item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-post-body .post__item > img {
+    width: 110px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.post__item .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.list-post-body .post__item .desc > h4 {
+    font-size: 12px;
+}
+
+.post__item .desc {
+    flex: 1;
+    position: relative;
+}
+
+.post__item .desc p {
+    font-size: 12px;
+    color: #d0021b;
+    font-weight: 700;
+}
+
+.post__item .desc p span {
+    display: block;
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #000;
+    opacity: .7;
+    max-width: calc(100% - 20px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.post__item .desc .icon {
+    position: absolute;
+    bottom: 1px;
+    right: 0px;
+    width: 16px;
+}
+
+.list-post-body > h3 {
+    line-height: 38px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    background: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.list-post-body > h3 img {
+    width: 17px;
+    height: 17px;
+    object-fit: cover;
+    margin-left: 3px;
+}
+
+.list-post-body  a {
+    font-size: 12px;
+    line-height: 22px;
+    color: #000;
+    display: block;
+}
+
+.list-post-body  a.info-more {
+    color: #fe9900;
+}
+
+.list-post-body .inner {
+    padding:  10px 10px;
+}
+
+.push-new {
+    margin: 10px 0px;
+    padding: 10px;
+    background: #f4f4f4;
+    font-size: 12px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.push-new p {
+    width: calc(100% - 120px);
+    max-width: 210px;
+}
+
+.push-new button {
+    width: 110px;
+    height: 30px;
+    border: 1px solid #589f39;
+    border-radius: 5px;
+    background: #eef5eb;
+    line-height: 30px;
+    text-align: center;
+    color: #589f39;
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: unset;
+}
+
+
+/* responsive */
+@media only screen and (max-width:768px){
+    .pdd__sp-none {
+        padding:  0px !important;
+    }
+    .project__name .thumb > img {
+        width: 84px;
+        height: 59px;
+    }
+    .project__name .desc > p.price,
+    .project__name .desc > h3 > a {
+        font-size: 13px;
+    }
+    .project__name .desc > span {
+        font-size: 11px;
+    }
+    .post__news {
+        flex-wrap: wrap;
+    }
+    .sell-faster {
+        margin-top: 10px;
+        font-size: 13px;
+        width: 140px;
+    }
+    .popup__button .item > button {
+        font-size: 13px;
+        height: 36px;
+    }
+    .popup__button .item > button > img {
+        display: none;
+    }
+    .page__title {
+        font-size: 15px;
+    }
+    footer {
+        margin-top: 40px;
+    }
+    .modal-dialog {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* responsive */

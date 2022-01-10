@@ -67,7 +67,6 @@ $(document).ready(function(){
         console.log("ss");
     });
     
-    $('.open-new-popup').on('click', function () {
-        $('body').addClass('modal-open');
-    });
+    
+    
 });

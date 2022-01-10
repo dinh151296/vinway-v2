@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quản lý tin</title>
+    
+        <!-- #bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- bootstrapcdn -->
+    
+        <!-- slick-carousel -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- slick-carousel -->
+    
+        <link rel="stylesheet" href="./assets/style/common.css" type="text/css">
+        <link rel="stylesheet" href="./assets/style/management-new.css" type="text/css">
+    </head>
+<body>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VINWAY - Chuyên rao vặt mua bán hàng đầu</title>
-
-    <!-- #bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- bootstrapcdn -->
-
-    <link rel="stylesheet" href="./assets/style/common.css" type="text/css">
-    <link rel="stylesheet" href="./assets/style/cat-bds.css" type="text/css">
-</head>
-
-<body class="cat-detail-page">
-    <header class="header-cat-detail">
+    <header>
         <div class="container container-sp-nopd">
             <div class="header__top d-flex justify-content-between align-items-center">
                 <a href="index.html" class="header__logo">
@@ -312,321 +316,394 @@
                 </a>
             </div>
         </div>
-
-        <div class="back-to-cat-page only-sp">
-            <a href="chuyenmuc-bds.html">
-                <svg xmlns="http://www.w3.org/2000/svg" data-type="monochrome" viewBox="0 0 20 20" width="1em" height="1em" fill="none"><path d="M19.307 9.397H2.455l6.867-7.334a.718.718 0 00-.004-.978.572.572 0 00-.443-.193.603.603 0 00-.439.196L0 10.092l8.266 8.82a.604.604 0 00.441.196.603.603 0 00.442-.195.725.725 0 00.012-.988L2.42 10.78c.013 0 .025.004.039.004h16.849a.693.693 0 000-1.387" fill="currentColor"></path></svg>
-            </a>
-        </div>
     </header>
 
-    <div class="wrap-main wrap-main-page-detail">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-4 p-0">
-                    <aside class="sidebar-wrap bg-white">
-                        <div class="thumb-page-detail">
-                            <img src="./assets/image/thumb.jpg" alt="">
-                            <div class="avatar">
-                                <img src="./assets/image/avatar001.jpg" alt="">
-                            </div>
-                        </div>
-                        <div class="social-detail">
-                            <button type="button" class="share-social hv-opacity-cm"  data-toggle="modal" data-target="#modalSocial">
-                                <img src="./assets/image/share-adview.svg" alt="">
-                            </button>
-                            <button class="bt-follow hv-opacity-cm" type="button">
-                                <span>+</span>
-                                Theo dõi
-                            </button>
-                        </div>
+    <div class="header__bt-sp only-sp">
+        <ul class="menu-sticky-bt d-flex justify-content-between align-items-center">
+            <li>
+                <a href="" class="active">
+                    <svg xmlns="http://www.w3.org/2000/svg" data-type="monochrome" viewBox="0 0 22.625 24.577" width="1em" height="1em"  ><path d="M22.423 8.703L11.608.1a.55.55 0 00-.295-.1.575.575 0 00-.297.1L.202 8.704A.548.548 0 000 9.132V24.05c0 .275.237.527.496.527h7.301c.26 0 .496-.252.496-.527v-6.025c0-.862.312-1.669.878-2.27a2.92 2.92 0 012.142-.932 2.92 2.92 0 012.14.932c.567.601.88 1.408.88 2.27v6.025c0 .275.236.527.495.527h7.301c.26 0 .496-.252.496-.527V9.132a.553.553 0 00-.202-.428" ></path></svg>
+                    Trang chủ
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" data-type="monochrome" viewBox="0 0 26.272 24.4" width="1em" height="1em" fill="none" class="i15cvmi8"><g fill="currentColor"><path d="M7.93 10.791c1.502.355 3.04.533 4.582.528 2.287 0 4.535-.382 6.17-1.05.974-.465.557-.225 1.246-.702l.528-.464c.369.736.992 1.27 1.508 1.712l.22.191a7.999 7.999 0 01.976 3.8c0 4.424-3.738 8.162-8.162 8.162-4.424 0-8.162-3.738-8.162-8.162a7.99 7.99 0 011.095-4.015zm-5.464-4.9l.232-.141a8.086 8.086 0 01-.217-.403l-.017-.032a10.24 10.24 0 01-.448-1.03 6.989 6.989 0 002.028.831 1.23 1.23 0 001.382-.646l.254-.145c1.734-.037 3.48-.766 5.172-1.471 1.276-.532 2.48-1.034 3.55-1.192.67-.1 1.308-.15 1.892-.15 1.63 0 2.86.386 3.552 1.114.464.489.68 1.129.64 1.9-.025.51.267.981.734 1.186.438.19.972.097 1.32-.226.126.099.27.172.427.216.413.115.652.216.8.338.16.13.314.364.503.76.876 1.832.478 2.79-.181 4.376l-.018.045c-.126-.435-.291-.77-.587-1.054a11.595 11.595 0 00-.546-.488c-.516-.442-1.05-.898-1.231-1.458A1.222 1.222 0 0019.6 7.82l-.385.399c-.825.547-.582.377-.98.615-.04.018-.08.035-.12.05-1.46.597-3.503.94-5.603.94-1.59 0-3.253-.195-4.567-.534a1.236 1.236 0 00-.937.137c-.232.14-.34.38-.633 1.022l-.143.313c-.19-.714-.428-1.595-.605-2.055a1.228 1.228 0 00-.52-.614c-.8-.473-1.456-1.03-1.952-1.659a4.43 4.43 0 01-.077-.1l-.076-.106a6.617 6.617 0 01-.299-.472l-.191.11.187-.114-.233.14zm23.154.264c-.213-.448-.417-.783-.66-1.045l.62.31-.62-.883c-.345-.49-.967-.77-1.708-.77-.463 0-.914.107-1.274.295-.06-.958-.417-1.802-1.048-2.466C19.634.232 17.25-.271 14.183.182c-1.254.185-2.602.747-3.906 1.291-1.6.667-3.255 1.357-4.734 1.357-1.92-.205-2.354-.722-3.372-1.783l.086.795.009.065c.039.248.15.516.327.793.069.11.147.218.232.325-.886-.538-1.602-1.343-2.17-2.43L.345 0 .153.644C-.32 2.23.387 4.523 1.13 5.993l.02.046.005.005c.08.156.164.311.252.464l.084.14.014.023c.085.142.175.28.27.416l.016.022c.06.086.124.17.189.253.593.75 1.36 1.413 2.283 1.97.895 2.367 1.099 4.39 1.145 5.17-.004.1-.005.202-.005.304 0 5.2 4.394 9.594 9.594 9.594 5.2 0 9.595-4.394 9.595-9.594 0-.133-.003-.265-.01-.396.21-1.031.555-1.859.888-2.66.704-1.696 1.312-3.16.15-5.595z"></path><path d="M11.84 14.937a1.052 1.052 0 000-2.1 1.052 1.052 0 000 2.1m6.547 0a1.052 1.052 0 000-2.1 1.052 1.052 0 000 2.1m-3.328 5.912c1.97 0 3.767-.987 4.69-2.576a.718.718 0 00-1.24-.72c-.667 1.149-1.99 1.863-3.45 1.863-1.462 0-2.784-.714-3.451-1.863a.711.711 0 00-.436-.332.717.717 0 00-.803 1.052c.922 1.589 2.72 2.576 4.69 2.576"></path></g></svg>
+                    Quản lý tin
+                </a>
+            </li>
+            <li class="center">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" data-type="monochrome" viewBox="0 0 23.228 23.227" width="1em" height="1em" fill="none"><path d="M13.288 0a.759.759 0 110 1.518H3.396a1.88 1.88 0 00-1.877 1.877v16.438a1.88 1.88 0 001.877 1.877h16.437a1.88 1.88 0 001.877-1.877V9.488a.76.76 0 011.518 0v10.344a3.399 3.399 0 01-3.395 3.395H3.396A3.4 3.4 0 010 19.832V3.395A3.4 3.4 0 013.396 0zm6.022.21c.273-.1.564-.078.835-.038.276.042.57.205.83.461l.54.54 1.117 1.117c.24.24.394.497.46.766a1.68 1.68 0 01-.4 1.545l-.058.062c-.344.352-.7.707-1.048 1.05l-.631.63-6.33 6.328-.488.493-.038.04c-.307.31-.621.628-.939.932-.153.148-.339.219-.619.236l-3.014.184h-.03a.719.719 0 01-.484-.218c-.158-.156-.249-.358-.24-.543l.135-3.097c.016-.253.095-.443.248-.598l.157-.16.003-.002.082-.081 5.416-5.415a719.16 719.16 0 011.747-1.745l1.68-1.682c.144-.146.27-.275.397-.396a1.8 1.8 0 01.672-.408zm.493 1.428l-.221.219c-.153.151-.306.305-.457.456l-.536.537-8.151 8.152-.086 1.957 1.906-.115.312-.312.226-.224.05-.049.385-.38 8.401-8.403-1.211-1.209a8.233 8.233 0 01-.172-.175l-.027-.029c-.065-.068-.13-.137-.2-.206l-.22-.219z" fill="currentColor"></path></svg>
+                    Đăng tin
+                </a>
+            </li>
+            <li class="">
+                <a href="" class="notification__popup-sp">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" data-type="monochrome" viewBox="0 0 15.706 19.271" width="1em" height="1em" fill="none" class="i1xblsiy"><path d="M13.033 7.739l-.03 8.149H2.705l-.03-8.148c0-2.953 2.226-5.181 5.179-5.183 2.952.002 5.18 2.23 5.18 5.182zm-3.775 9.296c-.194.635-.75 1.066-1.404 1.067-.654-.001-1.21-.432-1.404-1.067zm5.88-1.147h-.947l-.01-8.17c0-3.381-2.409-6-5.746-6.277V.568c0-.37-.292-.566-.582-.568-.288.002-.58.198-.58.568v.873c-3.337.276-5.746 2.896-5.746 6.277l-.01 8.17H.568c-.373 0-.568.293-.568.584 0 .29.195.584.568.584H5.26a2.642 2.642 0 002.593 2.215 2.641 2.641 0 002.593-2.215h4.692c.373 0 .568-.294.568-.584s-.195-.584-.568-.584z" fill="currentColor"></path></svg>
+                        <span>5</span>
+                    </div>
+                    Thông báo
+                </a>
+            </li>
+            <li class="">
+                <a href="" class="user-popup-sp">
+                    <svg xmlns="http://www.w3.org/2000/svg" data-type="monochrome" viewBox="0 0 23.821 6.592" width="1em" height="1em" fill="none" class="i1phx8wr"><path fill="currentColor" d="M3.295.001a3.295 3.295 0 100 6.59 3.295 3.295 0 000-6.59m0 1.362c1.067 0 1.934.867 1.934 1.933a1.935 1.935 0 01-1.934 1.933 1.935 1.935 0 01-1.933-1.933c0-1.066.868-1.933 1.933-1.933M11.911.001a3.296 3.296 0 100 6.59 3.296 3.296 0 000-6.59m0 1.362c1.066 0 1.933.867 1.933 1.933a1.935 1.935 0 01-1.933 1.933 1.935 1.935 0 01-1.933-1.933c0-1.066.867-1.933 1.933-1.933M20.526.001a3.295 3.295 0 100 6.59 3.295 3.295 0 000-6.59m0 1.362c1.066 0 1.933.867 1.933 1.933a1.935 1.935 0 01-1.933 1.933 1.935 1.935 0 01-1.933-1.933c0-1.066.867-1.933 1.933-1.933"></path></svg>
+                    Thêm
+                </a>
+            </li>
+        </ul>
 
-                        <h3 class="title-page-detail">
-                            Chuyên trang BĐS Lan Anh - Nam Long
-                        </h3>
-                        <ul class="info__post">
-                            <li>
-                                Số tin đăng đã bán
-                                <span>1</span>
-                            </li>
-                            <li>
-                                Thời gian hoạt động
-                                <span>+ 6 tháng</span>
-                            </li>
-                            <li>
-                                Số người theo dõi
-                                <span>1</span>
-                            </li>
-                        </ul>
-
-                        <div class="aside__block aside-number-phone hv-opacity-cm only-pc">
-                            <p class="number__phone enter-show-phone">
-                                <img src="assets/image/white-phone.svg" alt="">
-                                <span>0797983365<span class="cover">***</span></span>
-                            </p>
-                            <p>BẤM ĐỂ HIỆN SỐ</p>
-                        </div>
-                    </aside>
+        <div class="user-popup">
+            <div class="user__popup-row d-flex align-items-center">
+                <div class="avatar">
+                    <a href="">
+                        <img src="assets/image/default_user.png" alt="">
+                    </a>
                 </div>
+                <div class="login-logout">
+                    <a href="">
+                        Đăng nhập / Đăng ký
+                    </a>
+                </div>
+            </div>
+            <div class="user__popup-group">
+                <a href="" class="user__popup-link d-flex align-items-center">
+                    <img src="assets/image/menu-saved-ad.svg" alt="">
+                    <span>Tin đăng đã lưu</span>
+                </a>
+                <a href="" class="user__popup-link d-flex align-items-center">
+                    <img src="assets/image/menu-saved-search.svg" alt="">
+                    <span>Tìm kiếm đã lưu</span>
+                </a>
+                <a href="" class="user__popup-link d-flex align-items-center">
+                    <img src="assets/image/menu-friends.svg" alt="">
+                    <span>Bạn bè</span>
+                </a>
+            </div>
+            <div class="user__popup-group">
+                <a href="" class="user__popup-link d-flex align-items-center">
+                    <img src="assets/image/circle-plus.svg" alt="">
+                    <span>Tạo Cửa hàng/Chuyên trang</span>
+                </a>
+                <a href="" class="user__popup-link d-flex align-items-center">
+                    <img src="assets/image/escrow.svg" alt="">
+                    <span>Tài khoản nhận thanh toán</span>
+                </a>
+            </div>
+            <div class="user__popup-group">
+                <a href="" class="user__popup-link d-flex align-items-center">
+                    <img src="assets/image/escrow.svg" alt="">
+                    <span>Vinway Ưu đãi</span>
+                </a>
+                <a href="" class="user__popup-link d-flex align-items-center">
+                    <img src="assets/image/green-wheel.svg" alt="">
+                    <span>Vòng quay may mắn</span>
+                </a>
+            </div>
+            <div class="user__popup-group">
+                <a href="" class="user__popup-link d-flex align-items-center">
+                    <img src="assets/image/circle-download.svg" alt="">
+                    <span>Tải ứng dụng miễn phí</span>
+                </a>
+            </div>
+            <div class="user__popup-group">
+                <a href="" class="user__popup-link d-flex align-items-center">
+                    <img src="assets/image/float.svg" alt="">
+                    <span>Trợ giúp</span>
+                </a>
+            </div>
 
-                <div class="col-12 col-lg-8 p-0">
-                    <div class="wrap__content">
-                        <ul class="menu-fix-top">
-                            <li>
-                                <a href="" class="active">
-                                    TRANG CHỦ
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    TIN ĐĂNG
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    ĐÁNH GIÁ
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    THÔNG TIN
-                                </a>
-                            </li>
-                        </ul>
+           
+        </div>
 
-                        <div class="detail-info block bg-white">
-                            <h3 class="title__block">
-                                Thông tin chi tiết
-                            </h3>
-                            <div class="detail-info__inner d-flex justify-content-between">
-                                <div class="block__inner block-inner__map">
-                                    <img src="./assets/image/location.svg" alt="">
-                                    <div class="desc">
-                                        <h3 class="mb-2">Địa chỉ:
-                                            <a href="" data-toggle="modal" data-target="#modalMap">
-                                                Quang Trung Street, Quận Gò Vấp, Ho Chi Minh City Vietnam
-                                            </a>
-                                        </h3>
-                                        <iframe title="shop-map" width="100%" height="100%" frameborder="0" src="https://www.google.com/maps/embed/v1/search?&amp;q=Quang Trung Street, Quận Gò Vấp, Ho Chi Minh City Vietnam&amp;zoom=10&amp;key=AIzaSyBEWb603KEdyjuwiyeuWmUgVVhoLzXTmCs" allowfullscreen=""></iframe>
-                                    </div>
-                                </div>
-                                <div class="block__inner">
-                                    <div class="block__inner-row row__phone">
-                                        <img src="./assets/image/call.svg" alt="">
-                                        <div class="text">
-                                            Số điện thoại:
-                                            <p><span>0797983365<span class="cover-show">***</span></span><span class="enter-show-phone02">Bấm để hiện số</span></p>
-                                        </div>
-                                    </div>
-                                    <div class="block__inner-row">
-                                        <img src="./assets/image/chat.svg" alt="">
-                                        <div class="text">
-                                            Phản hồi chat:
-                                            <p>Thỉnh thoảng (Trong 17 giờ )</p>
-                                        </div>
-                                    </div>
-                                    <div class="block__inner-row row__social">
-                                        <img src="./assets/image/info.svg" alt="">
-                                        <div class="text">
-                                            Đã cung cấp:
-                                            <ul class="social__list d-flex align-items-center ml-2">
-                                                <li>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
-                                                        <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
-                                                            <circle cx="10" cy="10" r="10" stroke="#9B9B9B" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
-                                                            <path fill="#9B9B9B" d="M12.547 4.002L11.015 4C9.294 4 8.181 5.125 8.181 6.867v1.322h-1.54a.24.24 0 0 0-.241.237v1.916a.24.24 0 0 0 .24.237h1.541v4.833a.24.24 0 0 0 .241.237h2.01a.24.24 0 0 0 .241-.237v-4.833h1.801a.24.24 0 0 0 .241-.237V8.426a.236.236 0 0 0-.07-.168.243.243 0 0 0-.17-.07h-1.802v-1.12c0-.538.13-.812.842-.812h1.032a.24.24 0 0 0 .24-.238V4.24a.24.24 0 0 0-.24-.238z"/>
-                                                        </g>
-                                                    </svg>
-                                                </li>
-                                                <li>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
-                                                        <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
-                                                            <circle cx="10" cy="10" r="10" stroke="#9B9B9B" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
-                                                            <path fill="#9B9B9B" d="M12.547 4.002L11.015 4C9.294 4 8.181 5.125 8.181 6.867v1.322h-1.54a.24.24 0 0 0-.241.237v1.916a.24.24 0 0 0 .24.237h1.541v4.833a.24.24 0 0 0 .241.237h2.01a.24.24 0 0 0 .241-.237v-4.833h1.801a.24.24 0 0 0 .241-.237V8.426a.236.236 0 0 0-.07-.168.243.243 0 0 0-.17-.07h-1.802v-1.12c0-.538.13-.812.842-.812h1.032a.24.24 0 0 0 .24-.238V4.24a.24.24 0 0 0-.24-.238z"/>
-                                                        </g>
-                                                    </svg>
-                                                </li>
-                                                <li>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
-                                                        <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
-                                                            <circle cx="10" cy="10" r="10" stroke="#9B9B9B" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
-                                                            <path fill="#9B9B9B" d="M12.547 4.002L11.015 4C9.294 4 8.181 5.125 8.181 6.867v1.322h-1.54a.24.24 0 0 0-.241.237v1.916a.24.24 0 0 0 .24.237h1.541v4.833a.24.24 0 0 0 .241.237h2.01a.24.24 0 0 0 .241-.237v-4.833h1.801a.24.24 0 0 0 .241-.237V8.426a.236.236 0 0 0-.07-.168.243.243 0 0 0-.17-.07h-1.802v-1.12c0-.538.13-.812.842-.812h1.032a.24.24 0 0 0 .24-.238V4.24a.24.24 0 0 0-.24-.238z"/>
-                                                        </g>
-                                                    </svg>
-                                                </li>
-                                                <li>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
-                                                        <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
-                                                            <circle cx="10" cy="10" r="10" stroke="#9B9B9B" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
-                                                            <path fill="#9B9B9B" d="M12.547 4.002L11.015 4C9.294 4 8.181 5.125 8.181 6.867v1.322h-1.54a.24.24 0 0 0-.241.237v1.916a.24.24 0 0 0 .24.237h1.541v4.833a.24.24 0 0 0 .241.237h2.01a.24.24 0 0 0 .241-.237v-4.833h1.801a.24.24 0 0 0 .241-.237V8.426a.236.236 0 0 0-.07-.168.243.243 0 0 0-.17-.07h-1.802v-1.12c0-.538.13-.812.842-.812h1.032a.24.24 0 0 0 .24-.238V4.24a.24.24 0 0 0-.24-.238z"/>
-                                                        </g>
-                                                    </svg>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+        <div class="notification__popup">
+            <ul class="nav nav-tabs w-100" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="home-tab" data-toggle="tab" href="#notification03" role="tab" aria-controls="home" aria-selected="true">HOẠT ĐỘNG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="profile-tab" data-toggle="tab" href="#notification04" role="tab" aria-controls="profile" aria-selected="false">TIN MỚI</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="notification03" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="notification__item01">
+                        <a href="" class="notification__item-inner d-flex align-items-center">
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                            <div class="desc">
+                               <p>
+                                   <strong> ĐT hết hạn</strong>
+                                    : 15.000ĐT trong tài khoản của bạn đã hết hạn vào ngày 23/12/2021
+                                    <span>4 ngày trước</span>
+                                </p>
                             </div>
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="notification__item01">
+                        <a href="" class="notification__item-inner d-flex align-items-center">
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                            <div class="desc">
+                               <p>
+                                   <strong> ĐT hết hạn</strong>
+                                    : 15.000ĐT trong tài khoản của bạn đã hết hạn vào ngày 23/12/2021
+                                    <span>4 ngày trước</span>
+                                </p>
+                            </div>
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="notification__item01">
+                        <a href="" class="notification__item-inner d-flex align-items-center">
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                            <div class="desc">
+                               <p>
+                                   <strong> ĐT hết hạn</strong>
+                                    : 15.000ĐT trong tài khoản của bạn đã hết hạn vào ngày 23/12/2021
+                                    <span>4 ngày trước</span>
+                                </p>
+                            </div>
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="notification__item01">
+                        <a href="" class="notification__item-inner d-flex align-items-center">
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                            <div class="desc">
+                               <p>
+                                   <strong> ĐT hết hạn</strong>
+                                    : 15.000ĐT trong tài khoản của bạn đã hết hạn vào ngày 23/12/2021
+                                    <span>4 ngày trước</span>
+                                </p>
+                            </div>
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="notification__item01">
+                        <a href="" class="notification__item-inner d-flex align-items-center">
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                            <div class="desc">
+                               <p>
+                                   <strong> ĐT hết hạn</strong>
+                                    : 15.000ĐT trong tài khoản của bạn đã hết hạn vào ngày 23/12/2021
+                                    <span>4 ngày trước</span>
+                                </p>
+                            </div>
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="notification__item01">
+                        <a href="" class="notification__item-inner d-flex align-items-center">
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                            <div class="desc">
+                               <p>
+                                   <strong> ĐT hết hạn</strong>
+                                    : 15.000ĐT trong tài khoản của bạn đã hết hạn vào ngày 23/12/2021
+                                    <span>4 ngày trước</span>
+                                </p>
+                            </div>
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="notification__item01">
+                        <a href="" class="notification__item-inner d-flex align-items-center">
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                            <div class="desc">
+                               <p>
+                                   <strong> ĐT hết hạn</strong>
+                                    : 15.000ĐT trong tài khoản của bạn đã hết hạn vào ngày 23/12/2021
+                                    <span>4 ngày trước</span>
+                                </p>
+                            </div>
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="notification__item01">
+                        <a href="" class="notification__item-inner d-flex align-items-center">
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                            <div class="desc">
+                               <p>
+                                   <strong> ĐT hết hạn</strong>
+                                    : 15.000ĐT trong tài khoản của bạn đã hết hạn vào ngày 23/12/2021
+                                    <span>4 ngày trước</span>
+                                </p>
+                            </div>
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="notification__item01">
+                        <a href="" class="notification__item-inner d-flex align-items-center">
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                            <div class="desc">
+                               <p>
+                                   <strong> ĐT hết hạn</strong>
+                                    : 15.000ĐT trong tài khoản của bạn đã hết hạn vào ngày 23/12/2021
+                                    <span>4 ngày trước</span>
+                                </p>
+                            </div>
+                            <img src="assets/image/avatar-notifi-01.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="notification04" role="tabpanel" aria-labelledby="profile-tab">
+                    <!-- <p>Chúng tôi không có cập nhật nào. Vui lòng kiểm tra lại sau</p> -->
+                    <div class="wrap__tab-pane">
+                        <div class="notification__item02 pd-common">
+                            <h3>🤑 SĂN TIN TỐT, HỐT QUÀ NGAY!</h3>
+                            <small>🎁 Vào 11h30 mỗi ngày từ 19-23/12, bạn hãy săn tìm “Tin đăng đặc biệt” trên chuyên mục Đồ điện tử để nhận ngay voucher 500k và nhiều phần quà hấp dẫn khác 
+                                🤟 Chương trình sẽ bắt đầu trong 1 giờ nữa. Chúng tôi sẽ gửi gợi ý, nhớ chú ý thông báo nhé
+                            </small>
+                            <a href="">
+                                👉 Click xem ngay!
+                            </a>
                         </div>
-
-                        <div class="block bg-white">
-                            <h3 class="title__block">
-                                Giới thiệu
-                            </h3>
-                            <p class="description">
-                                Chuyên nhà phố, thổ cư tại TPHCM. Tư vấn, hỗ trợ xem nhà nhiệt tình, mọi dịch vụ đều miễn phí!
-                            </p>
+                        <div class="notification__item02 pd-common">
+                            <h3>Ngồi nhà vẫn xem chung cư tận mắt🤩</h3>
+                            <small>⏯Xem chung cư chân thực, không dối lừa với hàng loạt tin đăng có video.</small>
+                            <a href="">
+                                👉 Click xem ngay!
+                            </a>
                         </div>
-                        <div class="block bg-white">
-                            <h3 class="title__block">
-                                Tin đăng nổi bật
-                            </h3>
-                            
-                            <ul class="hot-news d-flex flex-wrap justify-content-between">
-                                <li>
-                                    <a href="">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <h4>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h4>
-                                        <p class="price">5.700.000.000 đ</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <h4>Mặt tiền Đông Hưng Thuận, Giá 5,7 tỷ ở ngay</h4>
-                                        <p class="price">5.700.000.000 đ</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <h4>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h4>
-                                        <p class="price">5.700.000.000 đ</p>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <h4>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h4>
-                                        <p class="price">5.700.000.000 đ</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-                        <div class="block bg-white">
-                            <h3 class="title__block">
-                                Tất cả tin đăng
-                            </h3>
-
-                            <ul class="all-posts">
-                                <li>
-                                    <a href="" class="post__link pd-common d-flex align-items-stretch">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h3>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h3>
-                                            <p class="price">5.700.000.000 đ</p>
-                                            <div class="desc__bt">
-                                                <div class="time">
-                                                    <img src="./assets/image/shop-icon.svg" alt="">
-                                                    <span>27 phút trước</span>
-                                                </div>
-                                                <img src="./assets/image/heart.png" alt="">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="post__link pd-common d-flex align-items-stretch">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h3>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h3>
-                                            <p class="price">5.700.000.000 đ</p>
-                                            <div class="desc__bt">
-                                                <div class="time">
-                                                    <img src="./assets/image/shop-icon.svg" alt="">
-                                                    <span>27 phút trước</span>
-                                                </div>
-                                                <img src="./assets/image/heart.png" alt="">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="post__link pd-common d-flex align-items-stretch">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h3>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h3>
-                                            <p class="price">5.700.000.000 đ</p>
-                                            <div class="desc__bt">
-                                                <div class="time">
-                                                    <img src="./assets/image/shop-icon.svg" alt="">
-                                                    <span>27 phút trước</span>
-                                                </div>
-                                                <img src="./assets/image/heart.png" alt="">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="post__link pd-common d-flex align-items-stretch">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h3>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h3>
-                                            <p class="price">5.700.000.000 đ</p>
-                                            <div class="desc__bt">
-                                                <div class="time">
-                                                    <img src="./assets/image/shop-icon.svg" alt="">
-                                                    <span>27 phút trước</span>
-                                                </div>
-                                                <img src="./assets/image/heart.png" alt="">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="post__link pd-common d-flex align-items-stretch">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h3>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h3>
-                                            <p class="price">5.700.000.000 đ</p>
-                                            <div class="desc__bt">
-                                                <div class="time">
-                                                    <img src="./assets/image/shop-icon.svg" alt="">
-                                                    <span>27 phút trước</span>
-                                                </div>
-                                                <img src="./assets/image/heart.png" alt="">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                            </ul>
-                            <div class="load-more-new-post">
-                                <button type="button">Xem thêm
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.939 7.939 12 12.879l-4.939-4.94-2.122 2.122L12 17.121l7.061-7.06z"></path></svg>
-                                </button>
+                        <div class="notification__item-new notification__item02">
+                            <img src="assets/image/original.jpg" alt="">
+                            <div class="desc">
+                                <h3>Bài toán nan giải - mua nhà ở đâu❓ </h3>
+                                <small>Muốn mua nhà ở vị trí có giao thông thuận tiện, gần siêu thị, trường học, bệnh viện? 
+                                    👉 Các dự án BĐS sau đây sẽ đáp ứng được nhu cầu của bạn. Tìm hiểu ngay
+                                </small>
+                                <a href="">Tìm hiểu ngay</a>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrap-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 pdd__sp-none">
+                    <div class="wrap__content bg-white">
+                        <div class="breadcrumb__inner d-flex align-items-center pt-2 only-pc">
+                            <a href="index.html">Vinway</a>
+                            <span></span>
+                            <a href="index.html">Quản lý tin</a>
+                            <span></span>
+                            <p>Đang bán</p>
+                        </div>
+                        <h1 class="page__title d-flex justify-content-between align-items-center">
+                            Quản lý tin đăng
+                            <a href="" class="order d-flex align-items-center">Đơn hàng đặt cọc (0) <img src="./assets/image/dow.svg" alt=""></a>
+                        </h1>
+
+                        <div class="user-info d-flex align-items-center only-pc">
+                            <img src="./assets/image/avatar001.jpg" alt="">
+                            <div class="user__name">
+                                <h3>nguyễn thành đạt</h3>
+                                <a href="">Xem trang cá nhân của bạn</a>
+                            </div>
+                        </div>
+
+                        <ul class="menu__tab d-flex align-items-center">
+                            <li>
+                                <a href="" class="active">
+                                    ĐANG HIỂN THỊ (1)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    BỊ TỪ CHỐI (0)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    CẦN THANH TOÁN (0)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    TIN NHÁP (0)
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    KHÁC (0)
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="wrap__content-bt mt-2 bg-white ">
+                        <div class="post__news d-flex">
+                            <div class="project__name d-flex align-items-start">
+                                <div class="thumb">
+                                    <img src="./assets/image/thumb02.jpg" alt="">
+                                    <div class="number">1</div>
+                                </div>
+                                <div class="desc">
+                                    <h3>
+                                        <a href="">Poodle tiny siêu phẩm giá rẻ</a>
+                                    </h3>
+                                    <p class="price">3.500.000 đ</p>
+                                    <span>13:45 07/01/22</span>
+                                </div>
+                            </div>
+                            <div id="option">
+                                <img src="./assets/image/listmenu.svg" alt="">
+                            </div>
+                            <a href="" class="sell-faster d-flex align-items-center">
+                                <img src="./assets/image/ic-sell-faster.svg" alt="">
+                                Bán nhanh hơn
+                            </a>
+                        </div>
+                        <div class="popup__button d-flex align-items-center">
+                            <div class="item d-flex align-items-center justify-content-center">
+                                <button type="button" class="hidd-show-post" data-toggle="modal" data-target="#modalSell">
+                                    <img src="./assets/image/hide_ad_icon_20x20.svg" alt="">
+                                    Đã bán / Ẩn tin
+                                </button>
+                            </div>
+                            <div class="item d-flex align-items-center justify-content-center">
+                                <button type="button" class="show-data" data-toggle="modal" data-target="#modalListpost">
+                                    <img src="./assets/image/stats_ic_20x20_new_of_new.svg" alt="">
+                                    Xem thống kê
+                                </button>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-3 only-pc pl-0">
+                    <aside class="wrap__aside bg-white">
+                        <div class="aside-block d-flex align-items-center">
+                            <img src="./assets/image/mony.svg" alt="">
+                            <p>Tài khoản Đồng Tốt <span>0</span></p>
+                        </div>
+                        <form action="" class="aside__form pb-3">
+                            <h4>Các gói nạp</h4>
+                            <div class="form-group d-flex align-items-center justify-content-between mb-0">
+                                <div class="form-check mb-0 pl-0">
+                                    <input class="form-check-input" type="checkbox" name="exampleRadios" id="Radios1" value="option1">
+                                    <label class="form-check-label" for="Radios1">
+                                        Nạp 8.000.000
+                                    </label>
+                                </div>
+                                <img  src="./assets/image/no-active.png" alt="">
+                            </div>
+                            <div class="form-group d-flex align-items-center justify-content-between mb-0">
+                                <div class="form-check mb-0 pl-0">
+                                    <input class="form-check-input" type="checkbox" name="exampleRadios2" id="Radios2" value="option2">
+                                    <label class="form-check-label" for="Radios2">
+                                        Nạp 3.000.000
+                                    </label>
+                                </div>
+                                <img  src="./assets/image/no-active.png" alt="">
+                            </div>
+                            <button type="submit" class="mt-3">Nạp Ngay</button>
+                        </form>
+                    </aside>
                 </div>
             </div>
         </div>
@@ -728,88 +805,114 @@
             </div>
         </div>
     </footer>
+   
 
-    <!-- popup map -->
-    <div class="modal fade modal-map" id="modalMap" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <!-- modal Sell -->
+    <div class="modal fade modalsell" id="modalSell" tabindex="-1" role="dialog" aria-labelledby="modalSelect" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
+          <div class="modal-content border-0">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Quang Trung Street, Quận Gò Vấp, Ho Chi Minh City Vietnam</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Ẩn tin Poodle tiny siêu phẩm giá rẻ</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <div class="map__if">
-                <iframe title="shop-map" width="100%" height="100%" frameborder="0" src="https://www.google.com/maps/embed/v1/search?&amp;q=Đường Số 9, Phường Bình An, Quận 2, Tp Hồ Chí Minh&amp;zoom=14&amp;key=AIzaSyBEWb603KEdyjuwiyeuWmUgVVhoLzXTmCs" allowfullscreen=""></iframe>
-              </div>
+                <form action="" class="popup-sell-form">
+                    <p>Khi bạn đã bán được hàng, hoặc không muốn tin xuất hiện trên Chợ Tốt, hãy chọn "Ẩn tin".</p>
+                    <h4>Vui lòng chọn lý do ẩn tin</h4>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
+                        <label class="form-check-label" for="exampleRadios1">
+                            Không muốn bán nữa
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" >
+                        <label class="form-check-label" for="exampleRadios2">
+                            Đã bán qua trang Vinway
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
+                        <label class="form-check-label" for="exampleRadios3">
+                            Đã bán qua các kênh khác.
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4" >
+                        <label class="form-check-label" for="exampleRadios4">
+                            Tôi bị làm phiền vì môi giới/dịch vụ đăng tin
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5" >
+                        <label class="form-check-label" for="exampleRadios5">
+                            Khác
+                        </label>
+                    </div>
+                    <div class="sell-faster__submit d-flex align-items-center justify-content-center">
+                        <button type="button" class="btn btn-secondary cancel" data-dismiss="modal">hủy</button>
+                        <button type="submit" class="bgn submit">ẩn tin</button>
+                    </div>
+                </form>
             </div>
-           
           </div>
         </div>
     </div>
-    <!-- end popup map -->
+    <!--end modal sell -->
 
-    <!-- popup map -->
-    <div class="modal fade modal-map" id="modalSocial" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
+    <!-- modal listpost -->
+    <div class="modal fade modal-list-post" id="modalListpost" tabindex="-1" role="dialog" aria-labelledby="modalSelect" aria-hidden="true">
+        <div class="modal-dialog " role="document">
+          <div class="modal-content border-0">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Chia sẻ ngay cho bạn bè qua</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
+                <h5 class="modal-title" id="exampleModalLabel">Thống kê tin đăng</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="./assets/image/close.svg" alt="">
+                </button>
+                <button type="reset" class="reload">
+                    <img src="./assets/image/reload.svg" alt="">
+                </button>
             </div>
-            <div class="modal-body">
-                <ul class="modal__social-list pd-common d-flex align-items-center justify-content-center flex-wrap">
-                    <li>
-                        <a href="" class="d-flex flex-column align-items-center">
-                            <img src="./assets/image/facebook.svg" alt="">
-                            <span>Facebook</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="d-flex flex-column align-items-center">
-                            <img src="./assets/image/circle-messenger.svg" alt="">
-                            <span>Messenger</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="d-flex flex-column align-items-center">
-                            <img src="./assets/image/circle-zalo.svg" alt="">
-                            <span>Zalo</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="d-flex flex-column align-items-center">
-                            <img src="./assets/image/circle-copylink.svg" alt="">
-                            <span>Sao chép link</span>
-                        </a>
-                    </li>
-                </ul>
+            <div class="modal-body list-post-body p-0">
+                <div class="post__item d-flex bg-white">
+                    <img src="./assets/image/thumb02.jpg" alt="">
+                    <div class="desc">
+                        <h4>Poodle tiny siêu phẩm giá rẻ</h4>
+                        <p>3.500.000 đ 
+                            <span>13:45 07/01/22 | Quận 2 - Thành phố Thủ Đức
+                            </span>
+                        </p>
+                        <div class="icon">
+                            <img src="./assets/image/private.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <h3>Vị trí tin đăng <img src="./assets/image/iconQuestion.svg" alt=""></h3>
+                <div class="inner bg-white">
+                    <a href="" class="location">
+                        Tin đăng đang ở <strong>trang 31</strong>, trong mục <strong>Chó</strong>, ở <strong>Tp Hồ Chí Minh</strong>.
+                    </a>
+                    <a href="" class="info-more">Tìm hiểu thêm</a>
+                    <div class="push-new d-flex align-items-center justify-content-between">
+                        <p>Đẩy tin ngay để tin lên trang đầu và bán nhanh hơn</p>
+                        <button type="button">
+                            Đẩy Tin
+                        </button>
+                    </div>
+                </div>
             </div>
-           
           </div>
         </div>
     </div>
-    <!-- end popup map -->
-
+    <!--end modal listpost -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script src="assets/js/common.js"></script>
-
-    <script>
-        $(document).ready(function(){
-
-            $('.enter-show-phone02').on('click', function() {
-                $(this).css("display","none");
-                $('.cover-show').addClass("none");
-            });
-        })
-    </script>
+   
 </body>
-
 </html>

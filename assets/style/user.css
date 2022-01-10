@@ -1,0 +1,273 @@
+
+.breadcrumb__inner {
+    padding: 12px 10px;
+}
+
+.breadcrumb__inner > p {
+    font-weight: bold;
+    font-family: Verdana,Arial,sans-serif;
+}
+
+.wrap-block {
+    padding: 0 10px;
+}
+
+.block__inner {
+    padding: 15px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    border-radius: 2px;
+}
+
+.user__block {
+    border-right: 1px solid #eee;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.user__block > img  {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.user__block .desc {
+    flex: 1;
+}
+
+.user__block .desc > h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user__block .desc a {
+    font-size: 12px;
+    width: 50%;
+    display: block;
+    margin-bottom: 10px;
+    max-width: 160px;
+}
+
+.user__block .desc a span {
+    font-weight: bold;
+    padding-right: 2px;
+}
+
+.user__block .desc  .social button.follow {
+    cursor: pointer;
+    text-align: center;
+    line-height: 1.5;
+    min-width: 125px;
+    font-size: 14px;
+    border-radius: 20px;
+    outline: 0;
+    padding: 4px 10px;
+    min-height: 30px;
+    margin-right: 10px;
+    border: unset;
+    color: #fff;
+
+    background-color: var(--main-color);
+}
+
+.user__block .desc  .social button.option {
+    border: 1px solid #d7d9dc;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user__block .desc  .social button.option span {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.block__info {
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.block__info-row > img {
+    width: 16px;
+    margin-right: 10px;
+}
+
+.block__info-row  {
+    font-size: 13px;
+    color: var(--text-color02);
+    height: 20px;
+    margin-bottom: 12px;
+}
+
+.block__info-row a {
+    color: var(--text-color03);
+}
+
+.block__info-row a:hover {
+    text-decoration: underline;
+}
+
+.block__info-row span {
+    color: #282f39;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.block__info-row .social__list > img {
+    width: 26px;
+    margin-right: 10px;
+}
+
+.wrap__block  {
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.wrap__block > h4 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.wrap__block > h4 span {
+    color: #999;
+    font-weight: 400;
+}
+
+.list__post li {
+    align-items: stretch;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgb(233, 235, 238);
+}
+
+.list__post li .thumb {
+    height: 100px;
+    width: 133px;
+    margin-right: 10px;
+}
+
+.list__post li .thumb img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.list__post li .desc {
+    flex: 1;
+    position: relative;
+}
+
+.list__post li .desc h3 a {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.list__post li .desc p {
+    color: rgb(208, 1, 27);
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+.list__post li .desc .desc__bt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.list__post li .desc button.like {
+    background-color: transparent;
+    outline: unset;
+    border: 0;
+    width: 20px;
+    cursor: pointer;
+}
+
+.desc__bt .time .item > img {
+    width: 22px;
+}
+
+.desc__bt .time .item span {
+    font-size: 12px;
+    padding: 0 6px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Verdana, Arial, sans-serif;
+
+    position: relative;
+}
+
+.desc__bt .time .item span::after {
+    position: absolute;
+    width: 1px;
+    content: "";
+    height: 16px;
+    background: rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    right: 0;
+}
+
+.load-more-new-post > button {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.load-more-new-post > button svg {
+    width: 16px;
+}
+
+.successfully-sold li {
+    border-bottom: 1px solid rgb(238, 238, 238);
+    padding: 8px 0px;
+}
+
+.successfully-sold li > h5 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.successfully-sold li > h5 span {
+    font-weight: bolder;
+}
+
+.successfully-sold li > p {
+    font-size: 12px;
+    color: rgba(0,0,0,.541176);
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .user__block {
+        margin-left: -15px;
+    }
+    .block__info {
+        margin-right: -15px;
+    }
+    .user__block > img {
+        width: 70px;
+        height: 70px;
+    }
+    .list__post li .thumb {
+        width: 90px;
+        height: 76px;
+    }
+}

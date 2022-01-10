@@ -1,7 +1,4 @@
-.container {
-    max-width: 940px;
-    margin: 0 auto;
-}
+
 
 section.block {
     border-radius: 2px;
@@ -531,8 +528,31 @@ h3.title-page-detail {
     cursor: pointer;
 }
 
-.block__inner-row.row__phone  .text > p span {
+.block__inner-row.row__phone  .text > p span.enter-show-phone02 {
+    color: #38699f;
+    cursor: pointer;
+    margin-left: -20px;
+}
+
+.block__inner-row.row__phone .text > p span.cover-show {
+    position: absolute;
+    background-color: #fff;
+    width: 60%;
+    right: 0px;
+    top: 0;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.block__inner-row.row__phone .text > p span.cover-show.none {
+    right: -100%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.block__inner-row.row__phone  .text > p > span {
     color: #222222;
+    position: relative;
 }
 
 .block__inner-row.row__social .text  {
@@ -673,6 +693,7 @@ ul.all-posts {
 .modal-map .modal-dialog {
     width: 450px;
     max-width: 90vw;
+    margin: auto;
 }
 
 .modal-map .modal-content {
@@ -724,6 +745,23 @@ ul.all-posts {
 .modal-map .modal-body .map__if > iframe {
     width: 100%;
     height: 405px;
+}
+
+.modal__social-list li a {
+    width: 88px;
+    padding: 8px 0px;
+}
+
+.modal__social-list li a > img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-bottom: 6px;
+}
+
+.modal__social-list li a > span {
+    font-size: 14px;
+    color: #333;
 }
 /* end page detail */
 

@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VINWAY - Chuyên rao vặt mua bán hàng đầu</title>
+    <title>Trang cá nhân</title>
 
     <!-- #bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- bootstrapcdn -->
 
     <link rel="stylesheet" href="./assets/style/common.css" type="text/css">
-    <link rel="stylesheet" href="./assets/style/cat-bds.css" type="text/css">
+    <link rel="stylesheet" href="./assets/style/user.css" type="text/css">
 </head>
 
 <body class="cat-detail-page">
@@ -320,304 +320,195 @@
         </div>
     </header>
 
-    <div class="wrap-main wrap-main-page-detail">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-lg-4 p-0">
-                    <aside class="sidebar-wrap bg-white">
-                        <div class="thumb-page-detail">
-                            <img src="./assets/image/thumb.jpg" alt="">
-                            <div class="avatar">
-                                <img src="./assets/image/avatar001.jpg" alt="">
+    <div class="wrap-main">
+        <div class="container container-sp-nopd">
+            <div class="breadcrumb__inner d-flex align-items-center">
+                <a href="index.html">Vinway</a>
+                <span></span>
+                <p>Trang cá nhân của Phuong</p>
+            </div>
+            <div class="wrap-block">
+                <div class="row align-items-stretch">
+                    <div class="col-12 col-md-6 pr-0">
+                        <div class="block__inner user__block d-flex align-items-start bg-white h-100">
+                            <img src="./assets/image/avatar001.jpg" alt="">
+                            <div class="desc">
+                                <h3>Phuong</h3>
+                                <div class="d-flex">
+                                    <a href=""><span>49</span> Người theo dõi</a>
+                                    <a href=""><span>9</span> Đang theo dõi</a>
+                                </div>
+                                <div class="social d-flex align-items-center">
+                                    <button type="button" class="follow hv-opacity-cm">
+                                        <span>+</span>
+                                        Theo dõi
+                                    </button>
+                                    <button type="button" class="option hv-opacity-cm">
+                                        <span>...</span>
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <div class="social-detail">
-                            <button type="button" class="share-social hv-opacity-cm"  data-toggle="modal" data-target="#modalSocial">
-                                <img src="./assets/image/share-adview.svg" alt="">
-                            </button>
-                            <button class="bt-follow hv-opacity-cm" type="button">
-                                <span>+</span>
-                                Theo dõi
-                            </button>
+                    </div>
+                    <div class="col-12 col-md-6 pl-0">
+                        <div class="block__inner block__info bg-white">
+                            <div class="block__info-row d-flex align-items-center">
+                                <img src="./assets/image/pf_rating_icon.svg" alt="">
+                                Đánh giá:&nbsp;4.4&nbsp;
+                                <div class="star d-flex align-items-center mb-1">
+                                    <img src="./assets/image/pf_rating_active_icon.svg" alt="">
+                                    <img src="./assets/image/pf_rating_active_icon.svg" alt="">
+                                    <img src="./assets/image/pf_rating_active_icon.svg" alt="">
+                                    <img src="./assets/image/pf_rating_active_icon.svg" alt="">
+                                    <img src="./assets/image/pf_rating_half_active_icon.svg" alt="">
+                                </div>
+                                <a href="">14 đánh giá</a>
+                            </div>
+                            <div class="block__info-row d-flex align-items-center">
+                                <img src="./assets/image/calendar.png" alt="">
+                                Ngày tham gia:&nbsp;
+                                <span>23/01/2020</span>
+                            </div>
+                            <div class="block__info-row d-flex align-items-center">
+                                <img src="./assets/image/location.svg" alt="">
+                                Địa chỉ:&nbsp;
+                                <span>Phường 2, Quận 8, Hồ Chí Minh</span>
+                            </div>
+                            <div class="block__info-row d-flex align-items-center">
+                                <img src="./assets/image/chat.png" alt="">
+                                Phản hồi chat:&nbsp;
+                                <span>87% (Trong 44 phút)</span>
+                            </div>
+                            <div class="block__info-row d-flex align-items-center">
+                                <img src="./assets/image/check.png" alt="">
+                                Đã cung cấp:&nbsp;
+                               <div class="social__list d-flex align-items-center">
+                                   <img src="./assets/image/facebook_active.png" alt="">
+                                   <img src="./assets/image/Google_active.png" alt="">
+                                   <img src="./assets/image/Zalo_active.png" alt="">
+                                   <img src="./assets/image/apple_inactive.svg" alt="">
+                                   <img src="./assets/image/email_active.png" alt="">
+                               </div>
+                            </div>
                         </div>
-
-                        <h3 class="title-page-detail">
-                            Chuyên trang BĐS Lan Anh - Nam Long
-                        </h3>
-                        <ul class="info__post">
-                            <li>
-                                Số tin đăng đã bán
-                                <span>1</span>
-                            </li>
-                            <li>
-                                Thời gian hoạt động
-                                <span>+ 6 tháng</span>
-                            </li>
-                            <li>
-                                Số người theo dõi
-                                <span>1</span>
-                            </li>
-                        </ul>
-
-                        <div class="aside__block aside-number-phone hv-opacity-cm only-pc">
-                            <p class="number__phone enter-show-phone">
-                                <img src="assets/image/white-phone.svg" alt="">
-                                <span>0797983365<span class="cover">***</span></span>
-                            </p>
-                            <p>BẤM ĐỂ HIỆN SỐ</p>
-                        </div>
-                    </aside>
+                    </div>
                 </div>
 
-                <div class="col-12 col-lg-8 p-0">
-                    <div class="wrap__content">
-                        <ul class="menu-fix-top">
-                            <li>
-                                <a href="" class="active">
-                                    TRANG CHỦ
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    TIN ĐĂNG
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    ĐÁNH GIÁ
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    THÔNG TIN
-                                </a>
-                            </li>
-                        </ul>
-
-                        <div class="detail-info block bg-white">
-                            <h3 class="title__block">
-                                Thông tin chi tiết
-                            </h3>
-                            <div class="detail-info__inner d-flex justify-content-between">
-                                <div class="block__inner block-inner__map">
-                                    <img src="./assets/image/location.svg" alt="">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="wrap__block bg-white">
+                            <h4>Tin đang đăng <span>- 7 tin</span></h4>
+                            <ul class="list__post">
+                                <li class="d-flex">
+                                    <div class="thumb">
+                                        <a href="">
+                                            <img src="./assets/image/07d5325be21cbaea2656d8356adeab43-2753903850076013468.jpg" alt="">
+                                        </a>
+                                    </div>
                                     <div class="desc">
-                                        <h3 class="mb-2">Địa chỉ:
-                                            <a href="" data-toggle="modal" data-target="#modalMap">
-                                                Quang Trung Street, Quận Gò Vấp, Ho Chi Minh City Vietnam
-                                            </a>
+                                        <h3>
+                                            <a href="">Samsung tab T585</a>
                                         </h3>
-                                        <iframe title="shop-map" width="100%" height="100%" frameborder="0" src="https://www.google.com/maps/embed/v1/search?&amp;q=Quang Trung Street, Quận Gò Vấp, Ho Chi Minh City Vietnam&amp;zoom=10&amp;key=AIzaSyBEWb603KEdyjuwiyeuWmUgVVhoLzXTmCs" allowfullscreen=""></iframe>
-                                    </div>
-                                </div>
-                                <div class="block__inner">
-                                    <div class="block__inner-row row__phone">
-                                        <img src="./assets/image/call.svg" alt="">
-                                        <div class="text">
-                                            Số điện thoại:
-                                            <p><span>0797983365<span class="cover-show">***</span></span><span class="enter-show-phone02">Bấm để hiện số</span></p>
+                                        <p>1.800.000 đ</p>
+                                       
+                                        <div class="desc__bt d-flex justify-content-between align-items-center">
+                                            <div class="time d-flex align-items-end">
+                                                <div class="item d-flex align-items-end">
+                                                    <img src="./assets/image/pro.svg" alt="">
+                                                    <span class="only-pc">Bán chuyên</span>
+                                                </div>
+                                                <div class="item">
+                                                    <span>7 giờ trước</span>
+                                                </div>
+                                            </div>
+                                            <button class="like hv-opacity-cm" type="button">
+                                                <img src="./assets/image/heart.png" alt="">
+                                            </button>
                                         </div>
                                     </div>
-                                    <div class="block__inner-row">
-                                        <img src="./assets/image/chat.svg" alt="">
-                                        <div class="text">
-                                            Phản hồi chat:
-                                            <p>Thỉnh thoảng (Trong 17 giờ )</p>
-                                        </div>
-                                    </div>
-                                    <div class="block__inner-row row__social">
-                                        <img src="./assets/image/info.svg" alt="">
-                                        <div class="text">
-                                            Đã cung cấp:
-                                            <ul class="social__list d-flex align-items-center ml-2">
-                                                <li>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
-                                                        <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
-                                                            <circle cx="10" cy="10" r="10" stroke="#9B9B9B" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
-                                                            <path fill="#9B9B9B" d="M12.547 4.002L11.015 4C9.294 4 8.181 5.125 8.181 6.867v1.322h-1.54a.24.24 0 0 0-.241.237v1.916a.24.24 0 0 0 .24.237h1.541v4.833a.24.24 0 0 0 .241.237h2.01a.24.24 0 0 0 .241-.237v-4.833h1.801a.24.24 0 0 0 .241-.237V8.426a.236.236 0 0 0-.07-.168.243.243 0 0 0-.17-.07h-1.802v-1.12c0-.538.13-.812.842-.812h1.032a.24.24 0 0 0 .24-.238V4.24a.24.24 0 0 0-.24-.238z"/>
-                                                        </g>
-                                                    </svg>
-                                                </li>
-                                                <li>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
-                                                        <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
-                                                            <circle cx="10" cy="10" r="10" stroke="#9B9B9B" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
-                                                            <path fill="#9B9B9B" d="M12.547 4.002L11.015 4C9.294 4 8.181 5.125 8.181 6.867v1.322h-1.54a.24.24 0 0 0-.241.237v1.916a.24.24 0 0 0 .24.237h1.541v4.833a.24.24 0 0 0 .241.237h2.01a.24.24 0 0 0 .241-.237v-4.833h1.801a.24.24 0 0 0 .241-.237V8.426a.236.236 0 0 0-.07-.168.243.243 0 0 0-.17-.07h-1.802v-1.12c0-.538.13-.812.842-.812h1.032a.24.24 0 0 0 .24-.238V4.24a.24.24 0 0 0-.24-.238z"/>
-                                                        </g>
-                                                    </svg>
-                                                </li>
-                                                <li>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
-                                                        <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
-                                                            <circle cx="10" cy="10" r="10" stroke="#9B9B9B" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
-                                                            <path fill="#9B9B9B" d="M12.547 4.002L11.015 4C9.294 4 8.181 5.125 8.181 6.867v1.322h-1.54a.24.24 0 0 0-.241.237v1.916a.24.24 0 0 0 .24.237h1.541v4.833a.24.24 0 0 0 .241.237h2.01a.24.24 0 0 0 .241-.237v-4.833h1.801a.24.24 0 0 0 .241-.237V8.426a.236.236 0 0 0-.07-.168.243.243 0 0 0-.17-.07h-1.802v-1.12c0-.538.13-.812.842-.812h1.032a.24.24 0 0 0 .24-.238V4.24a.24.24 0 0 0-.24-.238z"/>
-                                                        </g>
-                                                    </svg>
-                                                </li>
-                                                <li>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
-                                                        <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
-                                                            <circle cx="10" cy="10" r="10" stroke="#9B9B9B" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5"/>
-                                                            <path fill="#9B9B9B" d="M12.547 4.002L11.015 4C9.294 4 8.181 5.125 8.181 6.867v1.322h-1.54a.24.24 0 0 0-.241.237v1.916a.24.24 0 0 0 .24.237h1.541v4.833a.24.24 0 0 0 .241.237h2.01a.24.24 0 0 0 .241-.237v-4.833h1.801a.24.24 0 0 0 .241-.237V8.426a.236.236 0 0 0-.07-.168.243.243 0 0 0-.17-.07h-1.802v-1.12c0-.538.13-.812.842-.812h1.032a.24.24 0 0 0 .24-.238V4.24a.24.24 0 0 0-.24-.238z"/>
-                                                        </g>
-                                                    </svg>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="block bg-white">
-                            <h3 class="title__block">
-                                Giới thiệu
-                            </h3>
-                            <p class="description">
-                                Chuyên nhà phố, thổ cư tại TPHCM. Tư vấn, hỗ trợ xem nhà nhiệt tình, mọi dịch vụ đều miễn phí!
-                            </p>
-                        </div>
-                        <div class="block bg-white">
-                            <h3 class="title__block">
-                                Tin đăng nổi bật
-                            </h3>
-                            
-                            <ul class="hot-news d-flex flex-wrap justify-content-between">
-                                <li>
-                                    <a href="">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <h4>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h4>
-                                        <p class="price">5.700.000.000 đ</p>
-                                    </a>
                                 </li>
-                                <li>
-                                    <a href="">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
+                                <li class="d-flex">
+                                    <div class="thumb">
+                                        <a href="">
+                                            <img src="./assets/image/07d5325be21cbaea2656d8356adeab43-2753903850076013468.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h3>
+                                            <a href="">Samsung tab T585</a>
+                                        </h3>
+                                        <p>1.800.000 đ</p>
+                                       
+                                        <div class="desc__bt d-flex justify-content-between align-items-center">
+                                            <div class="time d-flex align-items-end">
+                                                <div class="item d-flex align-items-end">
+                                                    <img src="./assets/image/pro.svg" alt="">
+                                                    <span class="only-pc">Bán chuyên</span>
+                                                </div>
+                                                <div class="item">
+                                                    <span>7 giờ trước</span>
+                                                </div>
+                                            </div>
+                                            <button class="like hv-opacity-cm" type="button">
+                                                <img src="./assets/image/heart.png" alt="">
+                                            </button>
                                         </div>
-                                        <h4>Mặt tiền Đông Hưng Thuận, Giá 5,7 tỷ ở ngay</h4>
-                                        <p class="price">5.700.000.000 đ</p>
-                                    </a>
+                                    </div>
                                 </li>
-                                <li>
-                                    <a href="">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
+                                <li class="d-flex">
+                                    <div class="thumb">
+                                        <a href="">
+                                            <img src="./assets/image/07d5325be21cbaea2656d8356adeab43-2753903850076013468.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="desc">
+                                        <h3>
+                                            <a href="">Samsung tab T585</a>
+                                        </h3>
+                                        <p>1.800.000 đ</p>
+                                       
+                                        <div class="desc__bt d-flex justify-content-between align-items-center">
+                                            <div class="time d-flex align-items-end">
+                                                <div class="item d-flex align-items-end">
+                                                    <img src="./assets/image/pro.svg" alt="">
+                                                    <span class="only-pc">Bán chuyên</span>
+                                                </div>
+                                                <div class="item">
+                                                    <span>7 giờ trước</span>
+                                                </div>
+                                            </div>
+                                            <button class="like hv-opacity-cm" type="button">
+                                                <img src="./assets/image/heart.png" alt="">
+                                            </button>
                                         </div>
-                                        <h4>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h4>
-                                        <p class="price">5.700.000.000 đ</p>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <h4>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h4>
-                                        <p class="price">5.700.000.000 đ</p>
-                                    </a>
+                                    </div>
                                 </li>
                             </ul>
+                            <div class="load-more-new-post">
+                                <button type="button">Xem thêm
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.939 7.939 12 12.879l-4.939-4.94-2.122 2.122L12 17.121l7.061-7.06z"></path></svg>
+                                </button>
+                            </div>
                         </div>
+                    </div>
+                </div>
 
-                        <div class="block bg-white">
-                            <h3 class="title__block">
-                                Tất cả tin đăng
-                            </h3>
-
-                            <ul class="all-posts">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="wrap__block bg-white">
+                            <h4>Đã bán thành công<span> - 7 tin</span></h4>
+                            <ul class="successfully-sold">
                                 <li>
-                                    <a href="" class="post__link pd-common d-flex align-items-stretch">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h3>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h3>
-                                            <p class="price">5.700.000.000 đ</p>
-                                            <div class="desc__bt">
-                                                <div class="time">
-                                                    <img src="./assets/image/shop-icon.svg" alt="">
-                                                    <span>27 phút trước</span>
-                                                </div>
-                                                <img src="./assets/image/heart.png" alt="">
-                                            </div>
-                                        </div>
-                                    </a>
+                                    <h5>Bán thành công <span>"Samsung S7 edge 4/32g"</span></h5>
+                                    <p>20 giờ trước</p>
                                 </li>
                                 <li>
-                                    <a href="" class="post__link pd-common d-flex align-items-stretch">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h3>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h3>
-                                            <p class="price">5.700.000.000 đ</p>
-                                            <div class="desc__bt">
-                                                <div class="time">
-                                                    <img src="./assets/image/shop-icon.svg" alt="">
-                                                    <span>27 phút trước</span>
-                                                </div>
-                                                <img src="./assets/image/heart.png" alt="">
-                                            </div>
-                                        </div>
-                                    </a>
+                                    <h5>Bán thành công <span>"Samsung S7 edge 4/32g"</span></h5>
+                                    <p>20 giờ trước</p>
                                 </li>
                                 <li>
-                                    <a href="" class="post__link pd-common d-flex align-items-stretch">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h3>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h3>
-                                            <p class="price">5.700.000.000 đ</p>
-                                            <div class="desc__bt">
-                                                <div class="time">
-                                                    <img src="./assets/image/shop-icon.svg" alt="">
-                                                    <span>27 phút trước</span>
-                                                </div>
-                                                <img src="./assets/image/heart.png" alt="">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="post__link pd-common d-flex align-items-stretch">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h3>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h3>
-                                            <p class="price">5.700.000.000 đ</p>
-                                            <div class="desc__bt">
-                                                <div class="time">
-                                                    <img src="./assets/image/shop-icon.svg" alt="">
-                                                    <span>27 phút trước</span>
-                                                </div>
-                                                <img src="./assets/image/heart.png" alt="">
-                                            </div>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="" class="post__link pd-common d-flex align-items-stretch">
-                                        <div class="thumb">
-                                            <img src="./assets/image/post-new.jpg" alt="">
-                                        </div>
-                                        <div class="desc">
-                                            <h3>Bán nhà 4 tầng Quang Trung, hơn 70m2, HXH giá 5tỷ7</h3>
-                                            <p class="price">5.700.000.000 đ</p>
-                                            <div class="desc__bt">
-                                                <div class="time">
-                                                    <img src="./assets/image/shop-icon.svg" alt="">
-                                                    <span>27 phút trước</span>
-                                                </div>
-                                                <img src="./assets/image/heart.png" alt="">
-                                            </div>
-                                        </div>
-                                    </a>
+                                    <h5>Bán thành công <span>"Samsung S7 edge 4/32g"</span></h5>
+                                    <p>20 giờ trước</p>
                                 </li>
                             </ul>
                             <div class="load-more-new-post">
@@ -729,70 +620,6 @@
         </div>
     </footer>
 
-    <!-- popup map -->
-    <div class="modal fade modal-map" id="modalMap" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Quang Trung Street, Quận Gò Vấp, Ho Chi Minh City Vietnam</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="map__if">
-                <iframe title="shop-map" width="100%" height="100%" frameborder="0" src="https://www.google.com/maps/embed/v1/search?&amp;q=Đường Số 9, Phường Bình An, Quận 2, Tp Hồ Chí Minh&amp;zoom=14&amp;key=AIzaSyBEWb603KEdyjuwiyeuWmUgVVhoLzXTmCs" allowfullscreen=""></iframe>
-              </div>
-            </div>
-           
-          </div>
-        </div>
-    </div>
-    <!-- end popup map -->
-
-    <!-- popup map -->
-    <div class="modal fade modal-map" id="modalSocial" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Chia sẻ ngay cho bạn bè qua</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <ul class="modal__social-list pd-common d-flex align-items-center justify-content-center flex-wrap">
-                    <li>
-                        <a href="" class="d-flex flex-column align-items-center">
-                            <img src="./assets/image/facebook.svg" alt="">
-                            <span>Facebook</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="d-flex flex-column align-items-center">
-                            <img src="./assets/image/circle-messenger.svg" alt="">
-                            <span>Messenger</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="d-flex flex-column align-items-center">
-                            <img src="./assets/image/circle-zalo.svg" alt="">
-                            <span>Zalo</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" class="d-flex flex-column align-items-center">
-                            <img src="./assets/image/circle-copylink.svg" alt="">
-                            <span>Sao chép link</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-           
-          </div>
-        </div>
-    </div>
-    <!-- end popup map -->
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -801,15 +628,7 @@
 
     <script src="assets/js/common.js"></script>
 
-    <script>
-        $(document).ready(function(){
-
-            $('.enter-show-phone02').on('click', function() {
-                $(this).css("display","none");
-                $('.cover-show').addClass("none");
-            });
-        })
-    </script>
+  
 </body>
 
 </html>
