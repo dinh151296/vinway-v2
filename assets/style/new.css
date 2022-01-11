@@ -14,6 +14,7 @@ h1.page__title {
     padding: 32px 0;
     font-size: 32px;
     font-weight: bold;
+    margin-bottom: 48px;
 }
 
 .new__big  {
@@ -91,9 +92,7 @@ h1.page__title {
     border-bottom: 1px solid #e8e8e8;
 }
 
-.new__small:last-of-type {
-    border-bottom: unset;
-}
+
 
 .new__small .thumb {
     height: 164px;
@@ -153,7 +152,6 @@ h2.new-post__title {
     box-shadow: 0 1px 12px 0 rgb(0 0 0 / 20%);
     background: #ffffff url(../image/letterborder.png) repeat-x bottom center/auto 5px;
     margin-bottom: 32px;
-    width: 300px;
     height: 304px;
     margin-left: auto;
     margin-right: auto;
@@ -204,4 +202,89 @@ h2.new-post__title {
     padding: 8px 12px;
     cursor: pointer;
     width: 100%;
+}
+
+.link-to-cat a {
+    border: solid 1px #38699f;
+    font-family: "Helvetica-Bold",Arial;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 114px;
+    height: 36px;
+    line-height: 20px;
+    color: #38699f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.link-to-cat a:hover {
+    opacity: 0.7;
+}
+
+.sidebar-banner iframe {
+    width: 100% !important;
+}
+
+@media only  screen and (max-width:768px) {
+    h1.page__title {
+        padding: 24px;
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
+    .new__big {
+        flex-wrap: wrap;
+    }
+    .new__big .thumb {
+        width: 100%;
+        padding-right: 0px;
+    }
+    .new__big .desc {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 12px;
+    }
+    .new__big .desc h3.title a {
+        font-size: 18px;
+    }
+    .new__big .desc hr {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .news__link-list li {
+        height: 30px;
+    }
+    .news__link-list li a {
+        font-size: 15px;
+    }
+    .new__small .thumb {
+        width: 120px;
+        height: 80px;
+    }
+    .new__small {
+        padding: 16px 0px;
+    }
+    h2.new-post__title {
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .new__small-sp {
+        flex-wrap: wrap;
+    }
+    .new__small-sp .thumb {
+        width: 100%;
+    }
+    .new__small-sp .desc {
+        width: 100%;
+        padding-left: 0px;
+        padding-top: 12px;
+    }
+    .new__small-sp .thumb {
+        width: 100%;
+        height: auto;
+    }
+    .link-to-cat {
+        padding-bottom: 10px;
+    }
 }
