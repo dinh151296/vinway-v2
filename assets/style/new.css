@@ -8,13 +8,16 @@ body {
     background-color: #fff;
 }
 
-h1.page__title {
+.page__title {
     text-align: center;
     background-color: #f0f5fa;
     padding: 32px 0;
+    margin-bottom: 48px;
+}
+
+.page__title h1 {
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 48px;
 }
 
 .new__big  {
@@ -227,11 +230,108 @@ h2.new-post__title {
     width: 100% !important;
 }
 
+/* new detail page*/
+section.wrap__title {
+    background-color: #f0f5fa;
+}
+
+.page__title > a {
+    display: block;
+    color: #38699f;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.page__title > p {
+    font-size: 15px;
+    color: var(--text-color02);
+    margin-top: 12px;
+}
+
+.wrap__content-page-detail {
+    padding-top: 48px;
+}
+
+.wrap__content-page-detail > p {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.wrap__content-page-detail > p > a {
+    color: #4db2ec;
+}
+
+.wrap__content-page-detail h2 {
+    font-family: "Helvetica-Bold", Arial;
+    font-size: 24px;
+    line-height: 1.33;
+    margin-bottom: 16px;
+    padding-top: 1rem;
+}
+
+.content__list {
+    background-color: #ddeaf5;
+    padding: 20px 24px 14px;
+}
+
+.content__list li {
+    margin-bottom: 6px;
+}
+
+.content__list li p {
+    display: block;
+    font-size: 18px;
+}
+
+.content__list li p > a {
+    color: #38699f;
+} 
+
+.related__post-list {
+     padding-left: 20px;
+}
+
+.related__post-list li {
+    margin-bottom: 10px;
+    list-style: disc;
+    color: #38699f;
+}
+
+.related__post-list li a {
+    font-size: 16px;
+    color: #38699f;
+}
+
+.related__post-list li a:hover {
+    text-decoration: underline;
+}
+
+.sidebar__block-detail-page {
+    max-height: 260px;
+}
+
+/* end new detail page*/
+
+
+footer {
+    border-top: 1px solid #e8e8e8;
+}
+
+.wrap-main {
+    padding-bottom: 48px;
+}
+
 @media only  screen and (max-width:768px) {
-    h1.page__title {
-        padding: 24px;
-        font-size: 24px;
+    .wrap__content-page-detail {
+        padding-top: 32px;
+    }
+    .page__title {
+        padding: 24px 12px;
         margin-bottom: 32px;
+    }
+    .page__title h1 {
+        font-size: 24px;
     }
     .new__big {
         flex-wrap: wrap;
@@ -286,5 +386,21 @@ h2.new-post__title {
     }
     .link-to-cat {
         padding-bottom: 10px;
+    }
+    .wrap__content-page-detail h2 {
+        font-size: 20px;
+    }
+    .new__small .desc {
+        padding-left: 12px;
+    }
+    .wrap-main {
+        padding-bottom: 32px;
+    }
+    .wrap__content-page-detail > p,
+    .content__list li p {
+        font-size: 17px;
+    }
+    .sidebar__block-detail-page {
+       max-height: unset;
     }
 }

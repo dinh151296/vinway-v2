@@ -1,0 +1,135 @@
+/* login-logout style */
+
+body {
+    background-color: transparent;
+}
+
+.wrap-main {
+    margin-top: 14px;
+    position: relative;
+    width: 100%;
+    background-image: url(../image/login_desktop_background.webp);
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 480px;
+    
+}
+
+footer {
+    border-width: 2px;
+    z-index: 1;
+}
+
+.wrap-form {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    z-index: 5;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 30%);
+    background-color: #fff;
+    width: 340px;
+
+    min-height: 440px;
+}
+
+.form__header > h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+.form__header > h2 p {
+    margin-top: 5px;
+    font-size: 14px;
+    color: var(--text-color02);
+}
+
+.form-control {
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #CACACA;
+    font-size: 0.875rem;
+    padding: 8px;
+    font-size: 14px;
+}
+
+
+form button[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 2px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    background-color: #CACACA;
+    border-color: #CACACA;
+    cursor: default;
+    font-size: 0.875rem;
+    line-height: 1;
+    padding: 8px 16px;
+}
+
+form a.forgot-pass {
+    text-align: center;
+    display: block;
+    margin-top: 8px;
+    font-size: 12px;
+    color: #38699F;
+}
+
+form p.policy {
+    text-align: center;
+    display: block;
+    margin-top: 8px;
+    font-size: 12px;
+    
+}
+
+form p.policy > a{
+    color: #38699F;
+}
+
+.login__option {
+    margin-top: 30px;
+
+}
+
+.login__option p {
+    text-align: center;
+    color: var(--text-color02);
+    font-size: 12px;
+}
+
+ul.option {
+    padding: 16px 0px 16px;
+}
+
+ul.option  li {
+    padding: 0px 8px;
+}
+
+ul.option  li img {
+    width: 46px;
+    height: 46px;
+    object-fit: cover;
+}
+
+.login__option-bt p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.login__option-bt p a {
+    color: #38699F;
+}
+
+@media only screen and (max-width:768px) {
+    .wrap-main {
+        background-size: contain;
+    }
+}
