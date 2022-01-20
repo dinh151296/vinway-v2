@@ -142,3 +142,42 @@
     top: 50%;
     transform: translateY(-50%);
 }
+
+
+
+@media only screen and (max-width:991px) {
+    .container {
+        max-width: 750px;
+    }
+    .wrap__aside-no {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .pdd__sp-none {
+        padding: 0px;
+    }
+    .wrap-profile {
+        padding: 0px;
+        border-top: 0;
+        flex-direction: column;
+    }
+    .page__title{
+        border-bottom: 0;
+    }
+    .profile__avatar {
+        width: auto;
+        margin: 0 auto;
+    }
+    .profile__avatar .choose__img {
+        left: 80px;
+    }
+    .profile__inner {
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+    .profile__item > h5 {
+        font-size: 12px;
+    }
+}

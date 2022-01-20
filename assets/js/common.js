@@ -1,16 +1,6 @@
 // common-js
 $(document).ready(function(){
-    // eyecatch-slider for pages
-    $('.home-slide').slick({
-        autoplay: true,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        dots: true,
-        arrows: false,
-        infinite: true
-    });
-
-
+   
     // popup
 
     $('.user-element-handle').on('click', function(e) {

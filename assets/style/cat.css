@@ -951,8 +951,6 @@ header .back-to-cat-page {
     }
 
     
-    
-    
     .wrap-content {
         padding-left: 0px;
     }
@@ -962,8 +960,9 @@ header .back-to-cat-page {
         white-space: nowrap;
         padding-bottom: 10px;
         padding-top: 10px;
-
-    }
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }   
     .breadcrumb__inner > span {
         margin: 0 10px;
     }

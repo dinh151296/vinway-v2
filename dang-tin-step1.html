@@ -4,22 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang cá nhân</title>
+    <title>VINWAY - Chuyên rao vặt mua bán hàng đầu</title>
 
     <!-- #bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- bootstrapcdn -->
 
-    <!-- slick-carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- slick-carousel -->
 
     <link rel="stylesheet" href="./assets/style/common.css" type="text/css">
-    <link rel="stylesheet" href="./assets/style/dashboard.css" type="text/css">
+    <link rel="stylesheet" href="./assets/style/post.css" type="text/css">
 </head>
 <body class="cat-detail-page">
-
     <header class="header-cat-detail">
         <div class="container container-sp-nopd">
             <div class="header__top d-flex justify-content-between align-items-center">
@@ -318,387 +313,135 @@
         </div>
 
         <div class="back-to-cat-page only-sp">
-            <a href="chuyenmuc-bds.html">
+            <a href="index.html">
                 <svg xmlns="http://www.w3.org/2000/svg" data-type="monochrome" viewBox="0 0 20 20" width="1em" height="1em" fill="none"><path d="M19.307 9.397H2.455l6.867-7.334a.718.718 0 00-.004-.978.572.572 0 00-.443-.193.603.603 0 00-.439.196L0 10.092l8.266 8.82a.604.604 0 00.441.196.603.603 0 00.442-.195.725.725 0 00.012-.988L2.42 10.78c.013 0 .025.004.039.004h16.849a.693.693 0 000-1.387" fill="currentColor"></path></svg>
             </a>
         </div>
     </header>
 
     <div class="wrap-main">
+        <h1 class="title-page">
+            Chọn danh mục tin đăng
+        </h1>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-9  pdd__sp-none">
-                   <div class="wrap-content bg-white">
-                        <div class="breadcrumb__inner d-flex align-items-center pt-2 only-pc">
-                            <a href="index.html">Vinway</a>
-                            <span></span>
-                            <p>Thông tin cá nhân</p>
+            <ul class="cat__list">
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/bds.png" alt="">
+                            <span>Bất động sản</span>
                         </div>
-                        <h1 class="page__title">
-                            Thông tin cá nhân
-                        </h1>
-
-                        <div class="wrap-profile d-flex align-items-start flex-wrap">
-                            <div class="profile__avatar col-12 col-md-3">
-                                <img src="./assets/image/avatar-notifi-01.jpg" alt="">
-                                <div class="choose__img">
-                                    <input type="file">
-                                    <img src="./assets/image/choose-img.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-9  profile__inner">
-                                <ul class="profile__list">
-                                    <li class="profile__item">
-                                        <h5>Họ và tên</h5>
-                                        <div class="info">
-                                            <span>nguyễn thành đạt</span>
-                                            <a href="">
-                                                <img src="./assets/image/edit.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Số điện thoại</h5>
-                                        <div class="info">
-                                            <span>0937056393</span>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Facebook</h5>
-                                        <div class="info">
-                                            <span class="no-data">Chưa kết nối Facebook</span>
-                                            <a class="connect hv-opacity-cm" href="">Kết nối</a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Google</h5>
-                                        <div class="info">
-                                            <span class="no-data">Chưa kết nối Google</span>
-                                            <a class="connect hv-opacity-cm" href="">Kết nối</a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Apple</h5>
-                                        <div class="info">
-                                            <span class="no-data">Chưa kết nối Apple</span>
-                                            <a class="connect hv-opacity-cm" href="">Kết nối</a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Email</h5>
-                                        <div class="info">
-                                            <span>dulichvietnam1504@gmail.com</span>
-                                            <a href="">
-                                                <img src="./assets/image/edit.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Địa chỉ</h5>
-                                        <div class="info">
-                                            <span>453/164 Lê Văn Sỹ, Phường 12, Quận 3, HCM</span>
-                                            <a href="">
-                                                <img src="./assets/image/edit.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Số CMND/Thẻ căn cước</h5>
-                                        <div class="info">
-                                            <span></span>
-                                            <a href="">
-                                                <img src="./assets/image/edit.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Giới tính</h5>
-                                        <div class="info">
-                                            <span>Chưa có thông tin</span>
-                                            <a href="">
-                                                <img src="./assets/image/edit.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Ngày sinh</h5>
-                                        <div class="info">
-                                            <span>Chưa có thông tin</span>
-                                            <a href="">
-                                                <img src="./assets/image/edit.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Mã số thuế</h5>
-                                        <div class="info">
-                                            <span>Chưa có thông tin</span>
-                                            <a href="">
-                                                <img src="./assets/image/edit.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Danh mục yêu thích</h5>
-                                        <div class="info">
-                                            <span>Nhà ở</span>
-                                            <a href="">
-                                                <img src="./assets/image/edit.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <h5>Mật khẩu</h5>
-                                        <div class="info">
-                                            <span>******</span>
-                                            <a href="">
-                                                <img src="./assets/image/edit.svg" alt="">
-                                            </a>
-                                        </div>
-                                    </li>
-                                    <li class="profile__item">
-                                        <a href="" class="delete-user">Yêu cầu chấm dứt tài khoản</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                   </div>
-                </div>
-                <div class="col-mlg-3 only-pc pl-0 wrap__aside-no">
-                    <aside class="wrap__aside bg-white">
-                        <div class="aside-block d-flex align-items-center">
-                            <img src="./assets/image/mony.svg" alt="">
-                            <p>Tài khoản Đồng Tốt <span>0</span></p>
-                        </div>
-                        <form action="" class="aside__form pb-3">
-                            <h4>Các gói nạp</h4>
-                            <div class="form-group d-flex align-items-center justify-content-between mb-0">
-                                <div class="form-check mb-0 pl-0">
-                                    <input class="form-check-input" type="checkbox" name="exampleRadios" id="Radios1" value="option1">
-                                    <label class="form-check-label" for="Radios1">
-                                        Nạp 8.000.000
-                                    </label>
-                                </div>
-                                <img  src="./assets/image/no-active.png" alt="">
-                            </div>
-                            <div class="form-group d-flex align-items-center justify-content-between mb-0">
-                                <div class="form-check mb-0 pl-0">
-                                    <input class="form-check-input" type="checkbox" name="exampleRadios2" id="Radios2" value="option2">
-                                    <label class="form-check-label" for="Radios2">
-                                        Nạp 3.000.000
-                                    </label>
-                                </div>
-                                <img  src="./assets/image/no-active.png" alt="">
-                            </div>
-                            <button type="submit" class="mt-3">Nạp Ngay</button>
-                        </form>
-                    </aside>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <div class="container container-sp-nopd">
-            <div class="footer__inner pd-common ">
-                <div class="footer__block">
-                    <h3>TẢI ỨNG DỤNG VINWAY</h3>
-                    <div class="block__inner d-flex flex-wrap">
-                        <div class="code-qr">
-                            <picture>
-                                <source type="image/webp" srcset="https://static.chotot.com/storage/default/group-qr.webp">
-                                <img alt="Vinway" class="io9q87n" src="https://static.chotot.com/storage/default/group-qr.jpeg" width="87" height="87">
-                            </picture>
-                        </div>
-                        <ul class="dowload-app">
-                            <li>
-                                <a href="">
-                                    <img src="assets/image/ios.svg" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="assets/image/android.svg" alt="">
-                                </a>
-                            </li>
-                        </ul>
-    
-                    </div>
-                </div>
-                <div class="footer__block">
-                    <h3>HỖ TRỢ KHÁCH HÀNG</h3>
-                    <ul class="footer__menu">
-                        <li>
-                            <a href="">Trung tâm trợ giúp</a>
-                        </li>
-                        <li>
-                            <a href="">An toàn mua bán</a>
-                        </li>
-                        <li>
-                            <a href="">Quy định cần biết</a>
-                        </li>
-                        <li>
-                            <a href="">Quy chế quyền riêng tư</a>
-                        </li>
-                        <li>
-                            <a href="">Liên hệ hỗ trợ</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__block">
-                    <h3>VỀ VINWAY</h3>
-                    <ul class="footer__menu">
-                        <li>
-                            <a href="">Giới thiệu</a>
-                        </li>
-                        <li>
-                            <a href="">Tuyển dụng</a>
-                        </li>
-                        <li>
-                            <a href="">Truyền thông</a>
-                        </li>
-                        <li>
-                            <a href="">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__block">
-                    <h3>LIÊN KẾT</h3>
-                    <ul class="footer-social d-flex align-items-center">
-                        <li>
-                            <a href="">
-                                <img src="assets/image/facebook.svg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="assets/image/youtube.svg" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="assets/image/google.svg" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                    <h3>CHỨNG NHẬN</h3>
-                    <a class="certificate" href="">
-                        <img src="assets/image/certificate.webp" alt="">
+                        <img src="./assets/image/right-chevron.svg" alt="">
                     </a>
-                </div>
-            </div>
-        </div>
-        <div class="footer__copyright">
-            <div class="container">
-                <address class="awzz0un">CÔNG TY TNHH Vinway - Địa chỉ: Phòng 1808, Tầng 18, Mê Linh Point Tower, 02 Ngô Đức Kế, Phường Bến Nghé, Quận 1, TP Hồ Chí Minh <br>Giấy chứng nhận đăng ký doanh nghiệp số 0312120782 do Sở Kế Hoạch và Đầu Tư TPHCM cấp ngày 11/01/2013 <br>Email: trogiup@chotot.vn - Tổng đài CSKH: 19003003 (1.000đ/phút)</address>
-            </div>
-        </div>
-    </footer>
-   
-
-    <!-- modal Sell -->
-    <div class="modal fade modalsell" id="modalSell" tabindex="-1" role="dialog" aria-labelledby="modalSelect" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content border-0">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Ẩn tin Poodle tiny siêu phẩm giá rẻ</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-                <form action="" class="popup-sell-form">
-                    <p>Khi bạn đã bán được hàng, hoặc không muốn tin xuất hiện trên Chợ Tốt, hãy chọn "Ẩn tin".</p>
-                    <h4>Vui lòng chọn lý do ẩn tin</h4>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" >
-                        <label class="form-check-label" for="exampleRadios1">
-                            Không muốn bán nữa
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" >
-                        <label class="form-check-label" for="exampleRadios2">
-                            Đã bán qua trang Vinway
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
-                        <label class="form-check-label" for="exampleRadios3">
-                            Đã bán qua các kênh khác.
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4" >
-                        <label class="form-check-label" for="exampleRadios4">
-                            Tôi bị làm phiền vì môi giới/dịch vụ đăng tin
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5" >
-                        <label class="form-check-label" for="exampleRadios5">
-                            Khác
-                        </label>
-                    </div>
-                    <div class="sell-faster__submit d-flex align-items-center justify-content-center">
-                        <button type="button" class="btn btn-secondary cancel" data-dismiss="modal">hủy</button>
-                        <button type="submit" class="bgn submit">ẩn tin</button>
-                    </div>
-                </form>
-            </div>
-          </div>
-        </div>
-    </div>
-    <!--end modal sell -->
-
-    <!-- modal listpost -->
-    <div class="modal fade modal-list-post" id="modalListpost" tabindex="-1" role="dialog" aria-labelledby="modalSelect" aria-hidden="true">
-        <div class="modal-dialog " role="document">
-          <div class="modal-content border-0">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Thống kê tin đăng</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <img src="./assets/image/close.svg" alt="">
-                </button>
-                <button type="reset" class="reload">
-                    <img src="./assets/image/reload.svg" alt="">
-                </button>
-            </div>
-            <div class="modal-body list-post-body p-0">
-                <div class="post__item d-flex bg-white">
-                    <img src="./assets/image/thumb02.jpg" alt="">
-                    <div class="desc">
-                        <h4>Poodle tiny siêu phẩm giá rẻ</h4>
-                        <p>3.500.000 đ 
-                            <span>13:45 07/01/22 | Quận 2 - Thành phố Thủ Đức
-                            </span>
-                        </p>
-                        <div class="icon">
-                            <img src="./assets/image/private.png" alt="">
+                </li>
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/xeco.png" alt="">
+                            <span>Xe cộ</span>
                         </div>
-                    </div>
-                </div>
-                <h3>Vị trí tin đăng <img src="./assets/image/iconQuestion.svg" alt=""></h3>
-                <div class="inner bg-white">
-                    <a href="" class="location">
-                        Tin đăng đang ở <strong>trang 31</strong>, trong mục <strong>Chó</strong>, ở <strong>Tp Hồ Chí Minh</strong>.
+                        <img src="./assets/image/right-chevron.svg" alt="">
                     </a>
-                    <a href="" class="info-more">Tìm hiểu thêm</a>
-                    <div class="push-new d-flex align-items-center justify-content-between">
-                        <p>Đẩy tin ngay để tin lên trang đầu và bán nhanh hơn</p>
-                        <button type="button">
-                            Đẩy Tin
-                        </button>
-                    </div>
+                </li>
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/ddt.png" alt="">
+                            <span>Đồ điện tử</span>
+                        </div>
+                        <img src="./assets/image/right-chevron.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/vieclam.png" alt="">
+                            <span>Việc làm</span>
+                        </div>
+                        <img src="./assets/image/right-chevron.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/thucung.png" alt="">
+                            <span>Thú cưng</span>
+                        </div>
+                        <img src="./assets/image/right-chevron.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/doan.png" alt="">
+                            <span>Đồ ăn, thực phẩm và các loại khác</span>
+                        </div>
+                        <img src="./assets/image/right-chevron.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/tulanh.png" alt="">
+                            <span>Tủ lạnh, máy lạnh, máy giặt</span>
+                        </div>
+                        <img src="./assets/image/right-chevron.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/mevabe.png" alt="">
+                            <span>Mẹ và bé</span>
+                        </div>
+                        <img src="./assets/image/right-chevron.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/thoitrang.png" alt="">
+                            <span>Thời trang, Đồ dùng cá nhân</span>
+                        </div>
+                        <img src="./assets/image/right-chevron.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/trochoi.png" alt="">
+                            <span>Giải trí, Thể thao, Sở thích</span>
+                        </div>
+                        <img src="./assets/image/right-chevron.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/dodung.png" alt="">
+                            <span>Đồ dùng văn phòng, công nông nghiệp</span>
+                        </div>
+                        <img src="./assets/image/right-chevron.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="" class="d-flex align-items-center justify-content-between">
+                        <div class="text d-flex align-items-center">
+                            <img src="./assets/image/dichvu.png" alt="">
+                            <span>Dịch vụ, Du lịch</span>
+                        </div>
+                        <img src="./assets/image/right-chevron.svg" alt="">
+                    </a>
+                </li>
+                
+                <div class="cate-detail-link">
+                    <a target="_blank" href="">Tìm hiểu chi tiết danh mục</a>
                 </div>
-            </div>
-          </div>
+            </ul>
         </div>
     </div>
-    <!--end modal listpost -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script src="assets/js/common.js"></script>

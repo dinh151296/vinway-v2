@@ -1,0 +1,94 @@
+/* đăng tin style */
+body {
+    background-color: #fff;
+}
+
+.wrap-main {
+    padding-bottom: 100px;
+}
+
+h1.title-page {
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    line-height: 48px;
+    border: 1px solid #e5e5e5;
+}
+
+.cat__list {
+    max-width: 920px;
+    margin: 20px auto;
+}
+
+.cat__list li a {
+    padding: 10px 15px;
+    color: #555;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    min-height: 52px;
+}
+
+.cat__list li:first-of-type a {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.cat__list li:last-of-type a {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.cat__list li a > img {
+    width: 8px;
+}
+
+.cat__list li a .text > img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+
+.cat__list li a .text > span {
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.cate-detail-link {
+    margin-top: 25px;
+    background-color: #f2f2f7;
+    text-align: center;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.cate-detail-link a {
+    color: #7591b5;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+@media only screen and (max-width:768px) {
+    h1.title-page {
+        font-size: 14px;
+    }
+    .cat__list li a .text > img {
+        width: 24px;
+        height: 24px;
+    }
+    .cat__list li a {
+        min-height: 50px;
+    }
+
+    .cat__list li a .text > span {
+        font-size: 12px;
+        line-height: 22px;
+        margin-left: 8px;
+    }
+}

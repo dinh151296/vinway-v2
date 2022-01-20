@@ -1639,6 +1639,14 @@
     <script>
         $(document).ready(function(){
             // eyecatch-slider for pages
+            $('.home-slide').slick({
+                autoplay: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: false,
+                infinite: true
+            });
             $('.new-post-cat-slider').slick({
                 autoplay: true,
                 slidesToShow: 5,
