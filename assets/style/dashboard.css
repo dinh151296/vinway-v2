@@ -87,7 +87,7 @@
     position: relative;
 }
 
-.profile__item > a.delete-user {
+ a.delete-user {
     margin-bottom: 10px;
     display: block;
     color: #9b9b9b;
@@ -144,6 +144,37 @@
 }
 
 
+/* form edit */
+form.form-edit .form-group {
+    margin-bottom: 10px;
+}
+
+.form-edit .form-group > label {
+    font-weight: 700;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-edit .form-group .form-control {
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    background: #eee;
+    border-radius: 4px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-right: 40px;
+    border: 0;
+    outline: none;
+}
+/* end form edit */
+
+
 
 @media only screen and (max-width:991px) {
     .container {
@@ -153,7 +184,7 @@
         display: none;
     }
 }
-    
+
 @media only screen and (max-width:768px) {
     .pdd__sp-none {
         padding: 0px;
@@ -179,5 +210,8 @@
     }
     .profile__item > h5 {
         font-size: 12px;
+    }
+    .form-edit .form-group > label {
+        font-size: 13px;
     }
 }
