@@ -153,7 +153,7 @@
         display: none;
     }
 }
-
+    
 @media only screen and (max-width:768px) {
     .pdd__sp-none {
         padding: 0px;
