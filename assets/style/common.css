@@ -695,6 +695,7 @@ footer {
 
 .footer__block .block__inner .code-qr {
     padding-right: 12px;
+    padding-bottom: 10px;
     max-width: 99px;
 }
 
@@ -1010,7 +1011,7 @@ section.home-slide .slider__item a img {
 
 .breadcrumb__inner > span {
     display: block;
-    width: 20px;
+    width: 10px;
     height: 10px;
     position: relative;
     margin: 0 8px;

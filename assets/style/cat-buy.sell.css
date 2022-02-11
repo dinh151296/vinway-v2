@@ -17,7 +17,8 @@
 }
 
 .breadcrumb__inner {
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
     padding-top: 5px;
 }
 
@@ -940,6 +941,7 @@ button.button__save {
     }
     .desc .desc__bt li {
         font-size: 11px;
+        white-space: nowrap;
     }
     .news__list > li {
         min-height: unset;

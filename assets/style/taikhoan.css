@@ -1,0 +1,395 @@
+/* page tài khoản đồng tốt -- style */
+
+.breadcrumb__inner > p {
+    font-weight: bold;
+}
+
+.breadcrumb__inner {
+    margin-bottom: 6px;
+}
+
+.breadcrumb__inner > span {
+    margin: 0 4px;
+}
+
+h1.title-page {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 12px;
+
+    display: flex;
+    align-items: center;
+}
+
+h1.title-page img {
+    margin-left: 4px;
+    width: 16px;
+}
+
+ul.option-tab {
+    margin-top: 10px;
+    padding: 10px 10px 0px 10px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.option-tab__item img:first-child {
+    display: none;
+}
+
+.option-tab__item.active img:first-child {
+    display: block;
+}
+
+.option-tab__item.active img:last-of-type {
+    display: none;
+}
+
+.option-tab__item {
+    display: flex; 
+    align-items: center;
+    padding-bottom: 6px;
+    color: #222;
+    margin-right: 36px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.option-tab__item.active {
+    border-bottom: 4px solid #ffba00;
+}
+
+.option-tab__item.active span {
+    color: #222;
+}
+
+.option-tab__item  img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 6px;
+}
+
+.option-tab__item  span {
+    font-size: 14px;
+    color: #9b9b9b;
+    font-weight: 700;
+}
+
+.wrap__total-price {
+    padding: 50px 10px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.total-price-alert {
+    background-color: #eee;
+    padding: 10px;
+}
+
+.total-price-alert p {
+    font-size: 12px;
+}
+
+.total-price-alert p a {
+    color: var(--text-color03);
+}
+
+.total-price-alert-close img {
+    width: 12px;
+    height: 12px;
+    opacity: 0.7;
+}
+
+.total-price__number {
+    padding: 8px 0px;
+}
+
+.total-price__number span {
+    color: #589f39;
+    font-size: 28px;
+}
+
+.total-price__number span img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    margin-left: 4px;
+}
+
+.total-price__number a {
+    white-space: nowrap;
+    font-size: 12px;
+    color: var(--text-color03);
+    font-weight: 700;
+}
+
+.total-price__number a img {
+    width: 20px;
+    height: 20px;
+}
+
+.account-price {
+    background-color: #f4f4f4;
+    padding: 8px;
+}
+
+.account-price > h2 {
+    white-space: nowrap;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.account-price > h2  img {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    margin-bottom: 4px;
+}
+
+.account-price > span {
+    font-size: 16px;    
+    font-weight: 700;
+    color: #589f39;
+    margin-right: 50px;
+}
+
+.account-price span img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    margin-left: 2px;
+    margin-bottom: 2px;
+}
+
+.account-price a {
+    font-size: 12px;
+    padding: 4.5px 8px;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(88, 159, 57);
+    display: flex;
+    align-items: center;
+}
+
+.account-price a span {
+    margin-top: 1px;
+    line-height: 1rem;
+    font-weight: 300;
+    font-size: 16px;
+    padding-right: 4px;
+    color: #fff;
+}
+
+.expiration-date {
+    padding: 12px;
+}
+
+.expiration-date > p {
+    font-size: 12px;
+    font-style: italic;
+    width: 40%;
+}
+
+.expiration-date .center {
+
+}
+
+.expiration-date .center > p {
+    font-size: 12px;
+}
+
+
+.expiration-date .center > p span {
+    font-weight: 700;
+}
+
+.expiration-date .center .date {
+    color: #d0021b;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 4px 0 0px;
+}
+
+.expiration-date a {
+    white-space: nowrap;
+    color: #589f39;
+    background: #fff;
+    border: 1px solid #589f39;
+    padding: 4px 8px;
+    border-radius: 12px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+h2.title-block {
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #eee;
+    padding: 12px;
+    font-weight: 700;
+    color: #222;
+    font-size: 14px;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+h2.title-block img {
+    width: 28px;
+    margin-right: 8px;
+}
+
+.wrap-block__inner ul {
+    max-width: 620px;
+    margin: 30px auto 0px;
+    padding-bottom: 20px;
+}
+
+.wrap-block__inner ul li {
+    margin-bottom: 10px;
+}
+
+.wrap-block__inner ul li a {
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.price-right {
+    font-size: 15px;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #333;
+}
+
+.price-right img {
+    width: 23px;
+    height: 23px;
+    object-fit: cover;
+    margin: 0 5px;
+}
+
+.price-right span {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.wrap-block__inner ul li a > img {
+    width: 8px;
+}
+
+.wrap-block__inner > img {
+    width: 100%;
+}
+
+.form-code {
+    max-width: 620px;
+    margin: 0px auto 0px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.form-text > img {
+    width: 64px;
+    margin-right: 10px;
+}
+
+.form-text h3 {
+    flex: 1;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.form-text h3 p {
+    color: #777;
+    margin-top: 8px;
+    font-weight: 400;
+}
+
+.form-control {
+    font-size: 14px;
+    min-height: 46px;
+}
+
+button[type="submit"] {
+    font-size: 14px;
+}
+
+.sticky-scroll {
+    padding-top: 10px;
+    position: sticky;
+    top: 110px;
+    z-index: 10;
+    background-color: #fff;
+}
+
+@media only  screen and (max-width: 768px) {
+    .breadcrumb__inner {
+        margin-left: 12px;
+    }
+    ul.option-tab {
+        justify-content: space-around;
+    }
+    .option-tab__item {
+        max-width: 120px;
+        margin-right: 0px;
+        flex-wrap: wrap;
+        width: calc(100%/3 - 10px);
+        display: flex; align-items: center;
+        justify-content: center;
+    }
+    .option-tab__item span {
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+    .wrap__total-price {
+        padding: 30px 10px;
+    }
+    .total-price-alert p {
+        padding-right: 20px;
+    }
+    .account-price > span {
+        margin-right: 0px;
+        padding: 0 10px;
+    }
+    .account-price a span {
+        padding-right: 0px;
+    }
+    .account-price > h2 {
+        width: auto;
+    }
+    .price-right {
+        flex: 1;
+        flex-wrap: wrap;
+    }
+    .price-right span {
+        width: 100%;
+    }
+    .wrap-block__inner ul {
+        padding: 0 10px;
+        margin: 25px auto;
+    }
+    .wrap-block__inner ul li a {
+        padding: 10px;
+    }
+    .wrap-block__inner > img {
+        height: 96px;
+        object-fit: cover;
+    }
+    .form-code {
+        padding: 40px 10px 60px;
+    }
+    .sticky-scroll {
+        top: 52px;
+    }
+}
