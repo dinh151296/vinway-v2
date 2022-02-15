@@ -1,0 +1,366 @@
+/* page thanh toán đồng tốt style */
+h1.title-page {
+    font-size: 16px;
+    padding: 4px 10px 6px;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.wrap__content-page {
+    padding-bottom: 20px;
+}
+
+.breadcrumb__inner {
+    padding-top: 8px;
+    margin-bottom: 0px;
+}
+
+.wrap-content {
+    max-width: 480px;
+    margin: 16px auto 50px;
+}
+
+.wrap-content h2 {
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.price__number-block {
+    padding: 10px 0px;
+    align-items: stretch;
+}
+
+.price__number-block .img {
+    width: 133px;
+    height: 100px;
+    border: 1px solid rgba(0,0,0,.1);
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.price__number-block .img  img {
+    width: 70px;
+}
+
+.price__number-block .desc {
+    margin-left: 10px;
+    flex: 1;
+    position: relative;
+}
+
+.price__number-block .desc h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.price__number-block .desc p {
+    font-size: 13px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+
+.price__number-block .desc p  img {
+    width: 20px;
+    margin-left: 4px;
+}
+
+.price__number-block .desc p span {
+    padding-left: 5px;
+}
+
+.price__number-block .desc__bt {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    height: auto;
+}
+
+.price__number-block .desc__bt p {
+    font-size: 13px;
+    font-weight: 700;
+    font-style: inherit;
+}
+
+.price__number-block .desc__bt span {
+    font-size: 13px;
+    color: var(--main-color);
+}
+
+.price-total {
+    padding: 12px 0px;
+    border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.price-total p {
+    font-size: 14px;
+}
+
+.price-total span {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+.payment-method h3 {
+    position: relative;
+    height: 35px;
+    margin: 5px auto;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-payment .form-check {
+    min-height: 48px;
+    margin-bottom: 10px;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 3px;
+    padding: 6px 60px 5px 30px;
+    position: relative;
+}
+
+.form-payment .form-check::after {
+    position: absolute;
+    content: "";
+    background-repeat: no-repeat;    
+    background-size: 40px 30px;
+    width: 40px;
+    height: 30px;
+    right: 7px;
+    top: 9px;
+}
+
+.form-check.method-mono::after {
+    background-image: url(../image/vi-momo.svg);
+}
+
+.form-check.method-zalo::after {
+    background-image: url(../image/vi-momo.svg);
+}
+
+.form-check.method-bank::after {
+    background-image: url(../image/the-ngan-hang.svg);
+}
+
+.form-check.method-bank-word::after {
+    background-image: url(../image/the-ngan-hang-qt.svg);
+}
+
+.form-check.method-other::after {
+    background-image: url(../image/payment-other.svg);
+}
+
+.form-check-label {
+    width: 100%;
+    font-size: 14px;
+}
+
+.instructions {
+    margin-top: 4px;
+}
+
+.instructions img {
+    width: 34px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.instructions a {
+    font-style: italic;
+    color: #013267;
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+.instructions a:hover {
+    text-decoration: underline;
+}
+
+.form-check.method-bank-word .instructions img {
+    width: 55px;
+    cursor: pointer;
+}
+
+.form-payment .form-request {
+    border: 0;
+}
+
+.form-request label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-request label small {
+    font-size: 12px;
+    font-style: italic;
+    color: #888;
+}
+
+.form-request .form-check-label::before {
+    content: none !important;
+}
+
+.form-submit {
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    max-width: 480px;
+    min-width: 480px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form-submit button {
+    background-color: #5a9e3f;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    box-shadow: 0 2px 2px #d1d1d1;  
+    border-radius: 5px;
+    width: 100%;
+    border: 0;
+    min-height: 40px;
+    cursor: pointer;
+}
+
+.form-submit button:hover {
+    opacity: 0.8;
+}
+
+/* nạp hoàn thành */
+h1.title-page02 {
+    font-size: 18px;
+    color: #5a9e3f;
+    margin-bottom: 14px;
+}
+
+.wrap-content__inner {
+    padding: 0 20px;
+}
+
+h4.info {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.table {
+    border: 1px solid #dadada ;
+}
+
+.table td, .table th {
+    font-size: 14px;
+}
+
+.table tbody tr th a {
+    color: #5a83b6;
+    font-weight: 400;
+}
+
+.table tbody tr th a:hover {
+    text-decoration: underline;
+}
+
+.table thead  {
+    background-color: #f6f6f6;
+}
+
+.table td img {
+    width: 23px;
+    margin-left: 2px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.table tbody tr:last-child {
+    background-color: #fff8db;
+}
+
+p.contact {
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 20px;
+    color: #959595;
+}
+
+p.contact a {
+    color: #5a83b6;
+    text-decoration: underline;
+}
+
+p.email {
+    font-size: 14px;
+    color: #333;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+p.email a {
+    color: #5a83b6; 
+    font-weight: bold;
+}
+
+.link__bt {
+    margin-top: 35px;
+}
+
+.link__bt a {
+    font-size: 14px;
+    text-transform: uppercase;
+    height: 40px;
+    line-height: 28px;
+    width: 48.5%;
+    white-space: nowrap;
+    padding: 6px 12px;
+    border: 1px solid var(--main-color);
+    font-weight: bold;
+    color: var(--main-color);
+}
+/* nạp hoàn thành */
+
+@media only screen and (max-width: 768px) {
+    .breadcrumb__inner {
+        margin-bottom: 0px;
+        margin-left: 10px;
+    }
+    .wrap-content {
+        padding: 0 10px;
+    }
+    .price__number-block .img {
+        width: 90px;
+        height: 80px;
+    }
+    .price__number-block .img img {
+        width: 60px;
+    }
+    .price__number-block .desc h4 {
+        margin-bottom: 0px;
+    }
+    .price__number-block .desc p {
+        font-size: 12px;
+    }
+    .form-submit {
+        min-width: unset;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .link__bt a {
+        font-size: 12px;
+    }
+    .table td, .table th {
+        font-size: 13px;
+        white-space: nowrap;
+    } 
+    .wrap-content__inner {
+        padding: 0 10px;
+    } 
+}

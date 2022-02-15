@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="50px" viewBox="0 0 70 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>diem giao dich</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-600.000000, -860.000000)" fill="#589F39">
+            <g id="diem-giao-dich" transform="translate(600.000000, 860.000000)">
+                <path d="M36.2504545,29.9090909 L60.0006061,29.9090909 L60.0006061,14.9545455 L36.2504545,14.9545455 L36.2504545,29.9090909 Z M10.0004545,44.8636364 L31.2507576,44.8636364 L31.2507576,14.9545455 L10.0004545,14.9545455 L10.0004545,44.8636364 Z M4.99969697,9.96969697 L65.000303,9.96969697 L65.000303,45.6060606 C65.000303,47.9489394 63.1007576,49.8484848 60.7578788,49.8484848 L9.24212121,49.8484848 C6.89924242,49.8484848 4.99969697,47.9489394 4.99969697,45.6060606 L4.99969697,9.96969697 Z" id="Fill-1"></path>
+                <polygon id="Fill-3" points="24.9995455 36.1401515 27.4993939 36.1401515 27.4993939 23.6780303 24.9995455 23.6780303"></polygon>
+                <polygon id="Fill-4" points="0 7.47727273 70 7.47727273 70 0 0 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

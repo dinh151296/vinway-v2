@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tài khoản Đồng Tốt</title>
+    <title>Thanh toán</title>
 
     <!-- #bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- bootstrapcdn -->
 
     <link rel="stylesheet" href="./assets/style/common.css" type="text/css">
-    <link rel="stylesheet" href="./assets/style/taikhoan.css" type="text/css">
+    <link rel="stylesheet" href="./assets/style/checkout-dongtot.css" type="text/css">
 </head>
 
 <body class="cat-detail-page">
@@ -327,152 +327,103 @@
                     <div class="breadcrumb__inner d-flex align-items-center">
                         <a href="cat-home.html">Vinway</a>
                         <span></span>
-                        <p>Tài khoản Đồng Tốt</p>
+                        <p>Nạp Đồng Tốt</p>
                     </div>
                     <h1 class="title-page">
-                        Tài khoản Đồng Tốt 
-                        <img src="./assets/image/down.svg" alt="">
+                        Thanh toán Đồng Tốt
                     </h1>
-    
-                    <ul class="option-tab d-flex align-items-center">
-                        <li>
-                            <a href="#tab-content01" class="option-tab__item active">
-                                <img src="./assets/image/option01.svg" alt="">
-                                <img src="./assets/image/option01-no-active.svg" alt="">    
-                                <span>Tổng số dư</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#tab-content02" class="option-tab__item">
-                                <img src="./assets/image/option02-active.svg" alt="">
-                                <img src="./assets/image/option02.svg" alt="">    
-                                <span>Nạp đồng tốt</span>
-                            </a>
-                        </li>
-                        <li >
-                            <a href="#tab-content03" class="option-tab__item">
-                                <img src="./assets/image/option03-active.svg" alt="">
-                                <img src="./assets/image/option03.svg" alt="">    
-                                <span>Khuyến mãi</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="wrap__total-price" id="tab-content01">
-                    <div class="total-price-alert d-flex align-items-center justify-content-between">
-                        <p>Trải nghiệm ngay phương thức thanh toán mới tiện lợi bằng Đồng Tốt. 
-                            <a href="">Xem thêm</a>
-                        </p>
-                        <span class="total-price-alert-close">
-                            <img src="./assets/image/close.svg" alt="">
-                        </span>
-                    </div>
-                    <div class="total-price__number d-flex align-items-center justify-content-between">
-                        <span class="d-flex align-items-center">
-                            20.000
-                            <img src="./assets/image/money.png" alt="">
-                        </span>
-                        <a href="" class="d-flex align-items-center">
-                            Xem lịch sử giao dịch
-                            <img src="./assets/image/right-blue.svg" alt="">
-                        </a>
-                    </div>
-                    <div class="account-price d-flex align-items-center justify-content-between">
-                        <h2>TÀI KHOẢN CHÍNH
-                            <img src="./assets/image/down.svg" alt="">
+                    
+                    <div class="wrap-content">
+                        <h2>
+                            Dịch vụ
                         </h2>
-                        <span class="d-flex align-items-center">
-                            20.000
-                            <img src="./assets/image/money.png" alt="">
-                        </span>
-                        <a href="">
-                            <span>+</span><p class="only-pc">Nạp Đồng Tốt</p>
-                        </a>
-                    </div>
-                    <div class="expiration-date d-flex align-items-center justify-content-between">
-                        <p>Trong đó có</p>
-                        <div class="center">
-                            <p><span>20.000</span> ĐT</p>
-                            <div class="date">
-                                Hết hạn 11/02/2023
+                        <div class="price__number-block d-flex">
+                            <div class="img">
+                                <img src="./assets/image/mony.svg" alt="">
+                            </div>
+                            <div class="desc">
+                                <h4>Thanh toán Đồng tốt</h4>
+                                <p>Đồng Tốt nạp thêm: <span>20.000 đ</span><img src="./assets/image/mony.svg" alt=""></p>
+                                <p>Khuyến mãi: <span>0</span> <img src="./assets/image/mony.svg" alt=""></p>
+                                <div class="desc__bt d-flex align-items-center justify-content-between">
+                                    <p>Số tiền phải trả</p>
+                                    <span>20.000 đ
+                                    </span>
+                                </div>
                             </div>
                         </div>
-                        <a href="">
-                            Dùng ngay kẻo hết
-                        </a>
+                        <div class="price-total d-flex align-items-center justify-content-between">
+                            <p>Thành tiền:</p>
+                            <span>20.000 đ</span>
+                        </div>
+                        
+                        <div class="payment-method">
+                            <h3>Chọn hình thức thanh toán</h3>
+                            <form action="" class="form-payment">
+                                <div class="form-check method-mono">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        Ví MoMo
+                                        <div class="instructions d-flex align-items-center">
+                                            <img src="./assets/image/momo.png" alt="">
+                                            <a href="">Hướng dẫn tải và thanh toán</a>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form-check method-zalo">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Ví ZaloPay
+                                        <div class="instructions d-flex align-items-center">
+                                            <img src="./assets/image/zalo-pay.png" alt="">
+                                            <a href="">Hướng dẫn tải và thanh toán</a>
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form-check method-bank">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                    <label class="form-check-label" for="exampleRadios3">
+                                        Thẻ ngân hàng nội địa khác
+                                    </label>
+                                </div>
+                                <div class="form-check method-bank-word">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                                    <label class="form-check-label" for="exampleRadios4">
+                                        Thẻ quốc tế
+                                        <div class="instructions d-flex align-items-center">
+                                            <img src="./assets/image/the-quoc-te.-01svg.png" alt="">
+                                            <img src="./assets/image/the-quoc-te.-02svg.png" alt="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="form-check method-other">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios5" value="option5">
+                                    <label class="form-check-label" for="exampleRadios5">
+                                        Tại điểm giao dịch
+                                        <div class="instructions d-flex align-items-center">
+                                            <a href="">Danh sách điểm giao dịch</a>
+                                        </div>
+                                    </label>
+                                </div>
+
+                                
+                                <div class="form-check form-request position-static pr-3 mb-3">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Yêu cầu xuất hoá đơn GTGT cho đơn hàng này
+                                        <small class="d-block">Chợ Tốt phát hành HOÁ ĐƠN ĐIỆN TỬ và gửi đến khách hàng thông qua email.</small>
+                                    </label>
+                                </div>
+                                <div class="form-submit">
+                                    <button type="submit">
+                                        <span>20.000</span>&nbsp;đ  - THANH TOÁN NGAY!
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
 
-                <div class="wrap-block" id="tab-content02">
-                    <h2 class="title-block d-flex align-items-center">
-                        <img src="./assets/image/option02-active.svg" alt="">
-                        Nạp đồng tốt
-                    </h2>
-                    <div class="wrap-block__inner">
-                        <ul>
-                            <li>
-                                <a href="" class="d-flex align-items-center justify-content-between">
-                                    <div class="price-right d-flex align-items-center">
-                                        Nạp 8.000.000
-                                        <img src="./assets/image/no-active.png" alt="">
-                                        <span>Giá 8.000.000 </span>
-                                    </div>
-                                    <img src="./assets/image/right-default.svg" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="d-flex align-items-center justify-content-between">
-                                    <div class="price-right d-flex align-items-center">
-                                        Nạp 3.000.000
-                                        <img src="./assets/image/no-active.png" alt="">
-                                        <span>Giá 3.000.000 </span>
-                                    </div>
-                                    <img src="./assets/image/right-default.svg" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="d-flex align-items-center justify-content-between">
-                                    <div class="price-right d-flex align-items-center">
-                                        Nạp 1.500.000
-                                        <img src="./assets/image/no-active.png" alt="">
-                                        <span>Giá 1.500.000 </span>
-                                    </div>
-                                    <img src="./assets/image/right-default.svg" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="wrap-block" id="tab-content03">
-                    <h2 class="title-block d-flex align-items-center">
-                        <img src="./assets/image/option03-active.svg" alt="">
-                        Khuyến mãi
-                    </h2>
-                    <div class="wrap-block__inner">
-                        <img src="./assets/image/muaban.svg" alt="">
-                        <form action="" class="form-code">
-                            <div class="form-row">
-                                <div class="col-12 col-sm-6">
-                                    <div class="form-text mb-3 d-flex align-items-start">
-                                        <img src="./assets/image/icon-box.svg" alt="">
-                                        <h3>
-                                            Mã khuyến mãi đồng tốt
-                                            <p>Nhập mã khuyến mãi. Hệ thống sẽ xác nhận số lượng Đồng Tốt mà bạn sẽ nhận được.</p>
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <div class="form-group mb-4">
-                                        <input type="text" class="form-control" placeholder="Nhập mã khuyến mãi (6 ký tự)">
-                                    </div>
-                                    <button type="submit" class="btn w-100 bnt-primary">Áp dụng</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -480,33 +431,10 @@
     
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <script src="assets/js/common.js"></script>
-    <script>
-        $(document).ready(function () {
-            // click tab scroll to block
-            $('.option-tab__item').on('click', function (e) {
-                e.preventDefault();
-                $('.option-tab__item').removeClass('active');
-                $(this).addClass('active');
-
-                var target = this.hash;
-                var $target = $(target);
-
-                var heightHeader = $('header').height();
-                var heightStickyScroll = $('.sticky-scroll').height();
-                var totalHeight = heightHeader + heightStickyScroll + 8;
-
-                $('html, body').stop().animate({
-                    'scrollTop': $target.offset().top - totalHeight,
-                }, 400, 'swing', function () {
-                });
-	
-            })
-        })
-    </script>
+    
   
 </body>
 
